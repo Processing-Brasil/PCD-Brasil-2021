@@ -103,3 +103,11 @@ header {
   box-shadow: inset 0px 5rem 0 0 var(--cor-azul);
   background-color: var(--cor-azul);
 }
+
+/*MOBILE*/
+
+@media (max-width:600px)  {
+  .olho {
+    font-size: 1.7rem;
+  }
+}
