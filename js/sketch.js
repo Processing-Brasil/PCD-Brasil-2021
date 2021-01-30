@@ -1,86 +1,67 @@
+/******************
+Code by Vamoss & Guilherme Vieira
+Original code link:
+https://openprocessing.org/sketch/1083121
+https://editor.p5js.org/guilhermesv/sketches/sTHNhIlwU
+******************/
+
+let tamanho, quadrados;
 let paleta = [
   "#004aa3",
   "#ff666c",
   "#e6e6d8"
-]
-
-let ondas = [];
-let circulos = [];
-
-let desenhos = [];
+];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  pixelDensity(1);
+  tamanho = min(width, height) / 5;
+  inicializaQuadrados();
+}
 
-  // altura, resolucao_x, resolucao_y, frequencia, velocidade 
-  
-  atualizar_desenho(); 
-  noFill();
-  strokeWeight(1);
+function inicializaQuadrados(){
+  quadrados = [];
+  for(let y = 0; y < height; y += tamanho){
+    for(let x = 0; x < width; x += tamanho){
+      var grafico = createGraphics(tamanho, tamanho);
+      //grafico.pixelDensity(1);
+      grafico.noFill();
+      
+      shuffle(paleta, true);
+      var cor = paleta[0];
+      
+      var ondas = [];
+      var distancia = dist(x, y, width/2, height/2);
+      if(random() < distancia/(width/2)){
+        // altura, resolucao_x, resolucao_y, frequencia, velocidade 
+        ondas[0] = new Onda(grafico, paleta[1], random(30, 100), 5, 10, random(0.01, 0.3), 0.01);
+        ondas[1] = new Onda(grafico, paleta[2], random(30, 100), 5, 20, random(0.01, 0.3), -0.01);
+        quadrados.push({grafico, x, y, cor, ondas});
+      }else{
+        grafico.background(cor);
+        image(grafico, x, y);
+      }
+    }
+  }
 }
 
 function draw() {
-  background(paleta[1]);
-
-  stroke(paleta[2]);
-  desenhos[0].desenhar();
-  stroke(paleta[0]);
-  desenhos[1].desenhar();
+  //draw grid
+  const t = frameCount/200;
+  quadrados.forEach((quadrado, index) => {
+    quadrado.grafico.background(quadrado.cor);
+    quadrado.ondas[0].desenhar();
+    quadrado.ondas[1].desenhar();
+    image(quadrado.grafico, quadrado.x, quadrado.y);
+  });
 }
 
-function atualizar_desenho() {
 
-  for(let i = 0; i < 2; i++) {
-    let sorteio = random();
-    if(sorteio > 0.5) {
-      desenhos[i] = new Onda(random(10, 100), 5, 10, random(0.01, 0.3), 0.01);
-    } else {
-      desenhos[i] = new Circulo(createVector(random(width/2), 0), 2000, 100, 0.01);
-    }
-  };
-  // shuffle(paleta, true);
-
-}
-
-function mousePressed() {
-  atualizar_desenho()
-}
-
-// function keyPressed() {
-//   let nome = "onda-" + frameCount + ".png";
-//   save(nome);
-// }
-
-class Circulo {
-
-  constructor(pos, diametro, resolucao, velocidade) {
-    this.pos = pos;
-    this.diametro = diametro;
-    this.resolucao = resolucao;
-    this.resolucao_inc = 1000 / resolucao;
-    this.velocidade = velocidade;
-    this.angulo = 0;
-  }
-
-  desenhar() {
-
-    push();
-    
-    translate(width/2, height/2);
-    rotate(this.angulo);
-
-    for (let d = this.resolucao_inc / 2; d <= this.diametro; d += this.resolucao_inc) {
-      circle(this.pos.x, this.pos.y, d);
-    }
-    this.angulo += this.velocidade;
-    pop();
-  }
-
-}
 
 class Onda {
-
-  constructor(altura, resolucao_x, resolucao_y, frequencia, velocidade) {
+  constructor(grafico, cor, altura, resolucao_x, resolucao_y, frequencia, velocidade) {
+    this.grafico = grafico;
+    this.cor = cor;
     this.altura = altura;
     this.resolucao_x = resolucao_x;
     this.resolucao_y = resolucao_y;
@@ -90,20 +71,22 @@ class Onda {
   };
 
   desenhar() {
-
-    for (let y = -this.altura; y < height + this.altura; y += this.resolucao_y) {
+    this.grafico.stroke(this.cor);
+    for (let y = -this.altura; y < this.grafico.height + this.altura; y += this.resolucao_y) {
       let comprimento = 0;
-      beginShape();
-      for (let x = 0; x < width + this.resolucao_x; x += this.resolucao_x) {
+      this.grafico.beginShape();
+      for (let x = 0; x < this.grafico.width + this.resolucao_x; x += this.resolucao_x) {
         let y_sin = sin(comprimento + this.tempo) * this.altura + y;
-        vertex(x, y_sin);
+        this.grafico.vertex(x, y_sin);
         comprimento += this.frequencia;
       }
-      endShape();
+      this.grafico.endShape();
     }
 
     this.tempo += this.velocidade;
-
   }
+}
 
+function mousePressed() {
+  inicializaQuadrados();
 }
