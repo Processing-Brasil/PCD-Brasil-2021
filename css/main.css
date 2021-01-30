@@ -107,7 +107,8 @@ header {
 /*MOBILE*/
 
 @media (max-width:600px)  {
-  .olho {
-    font-size: 1.7rem;
+  .olho,
+  .data {
+    font-size: 1.7rem; 
   }
 }
