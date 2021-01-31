@@ -34,8 +34,8 @@ function inicializaQuadrados(){
       var distancia = dist(x, y, width/2, height/2);
       if(random() < distancia/(width/2)){
         // altura, resolucao_x, resolucao_y, frequencia, velocidade 
-        ondas[0] = new Onda(grafico, paleta[1], random(30, 100), 5, 10, random(0.01, 0.3), 0.01);
-        ondas[1] = new Onda(grafico, paleta[2], random(30, 100), 5, 20, random(0.01, 0.3), -0.01);
+        ondas[0] = new Onda(grafico, paleta[1], random(30, 100), 8, 10, random(0.01, 0.3), 0.01);
+        ondas[1] = new Onda(grafico, paleta[2], random(30, 100), 8, 20, random(0.01, 0.3), -0.01);
         quadrados.push({grafico, x, y, cor, ondas});
       }else{
         grafico.background(cor);

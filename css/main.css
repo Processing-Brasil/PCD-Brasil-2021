@@ -39,7 +39,7 @@ canvas {
 
 .conteudo-wrapper {
   margin: 0 auto 0 auto;
-  max-width: 37rem;
+  max-width: 40rem;
   background-color: var(--cor-cinza);
 }
 
@@ -104,11 +104,50 @@ header {
   background-color: var(--cor-azul);
 }
 
+h1 { 
+  font-family: 'Fraunces', serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--cor-vermelho);
+  margin-bottom: 2rem;
+}
+
+ul {
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #004aa3;
+}
+
+
+footer {
+  padding: 2rem;
+  background-color: var(--cor-vermelho);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--font-tomorrow);
+}
+
 /*MOBILE*/
 
 @media (max-width:600px)  {
   .olho,
   .data {
     font-size: 1.7rem; 
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  header,
+  section {
+    padding: 2rem;
   }
 }
