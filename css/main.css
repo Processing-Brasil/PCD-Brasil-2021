@@ -13,6 +13,7 @@
 
 body {
   font-size: 1.2rem;
+  line-height: 1.5em;
   font-family: var(--font-recursive);
   background-color: var(--cor-cinza);
   color: var(--cor-azul)
@@ -24,6 +25,11 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 canvas {
   position: fixed;
   left: 0;
@@ -33,64 +39,140 @@ canvas {
   z-index: -1;
 }
 
+h2 {
+  font-family: var(--font-fraunces);
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-family: var(--font-tomorrow);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.2em;
+  background-color: #ff666c;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+
+a {
+  color: #004aa3;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* SITE */
+
 .site {
-  padding: 10vh 2rem;
+
 }
 
-.conteudo-wrapper {
-  margin: 0 auto 0 auto;
-  max-width: 40rem;
-  background-color: var(--cor-cinza);
+.site-content {
+  background: var(--cor-cinza);
 }
 
-header,
 section {
-  padding: 3rem;
+  padding: 3rem 2rem;
 }
 
-header {
+/* SEÇÃO INTRO */
+
+.intro {
+  background-color: var(--cor-vermelho);
+}
+
+.intro-header {
+  margin-bottom: 2rem;
   background-color: var(--cor-azul);
-  color: var(--cor-vermelho);
+}
+
+.intro-logo {
+  padding: 1rem;
+}
+
+.intro-data {
+  padding: 1rem;
+  background-color: var(--cor-cinza);
+  color: #004aa3;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: var(--font-tomorrow);
   text-align: center;
 }
 
-ul {
-  list-style: square;
-}
+/* SEÇÃO PROGRAMAÇÃO */
 
-.logo svg {
-  width: 100%;
+.programacao-card {
   margin-bottom: 2rem;
-  fill: var(--cor-vermelho);
-}
-
-.data {
-  text-transform: uppercase;
-  font-size: 2.2rem;
   
-  font-weight: 700;
 }
 
-.olho {
-  font-family: var(--font-fraunces);
+.programacao-card-header {
+  background-color: var(--cor-azul);
+  color: #e6e6d8;
+  padding: 1rem;
+}
+
+.programacao-card-header-horario {
+  font-size: 1.5rem;
+  font-family: var(--font-tomorrow);
+  margin-bottom: 0.5rem;
+}
+
+.programacao-card-infos {
+
+}
+
+.programacao-card-tipo {
+  padding: 0 0.7em;
+  border-radius: 0.05em;
+  background-color: #ff666c;
+  display: inline-block;
+  color: #004aa3;
   text-transform: uppercase;
-  font-size: 2.5rem;
-  line-height: 1.1em;
-  color: var(--cor-vermelho);
-  margin-top: 5rem;
+  margin-bottom: 0.5rem;
 }
 
-.chamada p {
-  margin-bottom: 2rem;
+.programacao-card-title {
+  font-family: var(--font-fraunces);
+  font-size: 2rem;
+  line-height: 1.2em;
+  color:var(--cor-vermelho);
+  margin-bottom: 0.5em;
 }
+
+.programacao-card-pessoa {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.programacao-card-description {
+  padding: 1rem;
+  
+  
+}
+
+/* INPUTS E AUXILIARES */
 
 .cta {
   text-align: center;
 }
 
-.botao {
+.button {
   font-family: var(--font-tomorrow);
   font-size: 1.3rem;
+  line-height: 1em;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: normal;
@@ -103,33 +185,18 @@ ul {
   width: 100%;
 }
 
-.botao:hover,
-.botao:focus {
-  box-shadow: inset 0px 5rem 0 0 var(--cor-azul);
+.button:hover,
+.button:focus {
   background-color: var(--cor-azul);
+  color: var(--cor-cinza);
 }
 
-h1 { 
-  font-family: 'Fraunces', serif;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  color: var(--cor-vermelho);
-  margin-bottom: 2rem;
+.button-small {
+  
+  font-size: 1rem;
+  padding: 0.6em 1em;
+  width: auto;
 }
-
-ul {
-  padding-left: 1rem;
-  margin-bottom: 2rem;
-}
-
-li {
-  margin-bottom: 1rem;
-}
-
-a {
-  color: #004aa3;
-}
-
 
 footer {
   padding: 2rem;
@@ -139,20 +206,16 @@ footer {
   font-family: var(--font-tomorrow);
 }
 
-/*MOBILE*/
+
+/* NAVEGAÇÃO */
+
+.main-menu {
+  display: none;
+}
+
+
+/* MOBILE */
 
 @media (max-width:600px)  {
-  .olho,
-  .data {
-    font-size: 1.7rem; 
-  }
-
-  body {
-    font-size: 1rem;
-  }
-
-  header,
-  section {
-    padding: 2rem;
-  }
+  
 }
