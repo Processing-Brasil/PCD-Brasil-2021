@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <div class="site">
+    
+    {% include nav.html %}
+
+    <div class="site-content">
+      
+      <section class="intro">
+        <header class="intro-header">
+          <div class="intro-logo">
+            <img src="{{site.baseurl}}/assets/PCD-BR-2021-Marca-Cinza.png" alt="logo">
+          </div>
+          <div class="intro-data">
+            11 a 17 de Abril de 2021
+          </div>
+        </header>
+      </section>
+
+      {{content}}  
+     
+    </div>
+  </div>
+  
+  {% include footer.html %}
+
+</body>
+
+</html>

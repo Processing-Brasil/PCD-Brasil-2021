@@ -39,6 +39,14 @@ canvas {
   z-index: -1;
 }
 
+h1 {
+  font-family: var(--font-fraunces);
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  line-height: 1em;
+}
+
 h2 {
   font-family: var(--font-fraunces);
   text-transform: uppercase;
@@ -68,6 +76,11 @@ a {
 }
 
 p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -198,9 +211,13 @@ section {
   width: auto;
 }
 
+/* RODAPÉ */
+
 footer {
   padding: 2rem;
   background-color: var(--cor-vermelho);
+  font-size: 1rem;
+  line-height: 1rem;
   text-transform: uppercase;
   text-align: center;
   font-family: var(--font-tomorrow);
@@ -213,9 +230,6 @@ footer {
   display: none;
 }
 
-
-/* MOBILE */
-
-@media (max-width:600px)  {
+@media (min-width:600px)  {
   
 }
