@@ -9,10 +9,19 @@
   --cor-azul: #004aa3;
   --cor-vermelho: #ff666c;
   --cor-cinza: #e6e6d8;
+  --header-height: 3rem;
+  --font-scale: 1;
 }
 
+@media screen and (min-width: 600px) {
+  :root {
+    --font-scale: 1.2;
+  }
+}
+
+
 body {
-  font-size: 1.2rem;
+  font-size: calc(1rem * var(--font-scale));
   line-height: 1.5em;
   font-family: var(--font-recursive);
   background-color: var(--cor-cinza);
@@ -24,6 +33,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
 
 img {
   max-width: 100%;
@@ -42,7 +52,7 @@ canvas {
 h1 {
   font-family: var(--font-fraunces);
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: calc(3rem * var(--font-scale));
   margin-bottom: 2rem;
   line-height: 1em;
 }
@@ -50,16 +60,17 @@ h1 {
 h2 {
   font-family: var(--font-fraunces);
   text-transform: uppercase;
-  font-size: 2.2rem;
+  font-size: calc(2.2rem * var(--font-scale));
   margin-bottom: 2rem;
 }
 
 h3 {
   font-family: var(--font-tomorrow);
-  font-size: 1.5rem;
+  font-size: calc(1.5rem * var(--font-scale));
   text-transform: uppercase;
   font-weight: 500;
-  padding: 0.2em;
+  padding: 0.4em 0.7em;
+  border-radius: 0.2rem;
   background-color: #ff666c;
   display: inline-block;
   margin-bottom: 1rem;
@@ -69,7 +80,6 @@ h4 {
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
-
 
 a {
   color: #004aa3;
@@ -87,7 +97,7 @@ ul {
 /* SITE */
 
 .site {
-
+  padding-top: var(--header-height);
 }
 
 .site-content {
@@ -95,8 +105,99 @@ ul {
 }
 
 section {
-  padding: 3rem 2rem;
+  padding: 3rem 1rem;
 }
+
+/* HEADER */
+
+.site-header {
+  background-color: var(--cor-azul);
+  padding: 0 2rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: var(--header-height);
+}
+
+.logo-reduzido {
+  font-size: calc(1.2rem * var(--font-scale));
+  color:var(--cor-cinza);
+  font-family: var(--font-tomorrow);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-reduzido span {
+  font-family: var(--font-fraunces);
+  font-size: 1.02em;
+}
+
+/* NAVEGAÇÃO */
+
+.button.menu-toggle {
+  font-size: calc(0.9rem * var(--font-scale));
+  border: none;
+  padding: 0.5em 1em;
+}
+
+.button.menu-toggle:hover,
+.button.menu-toggle:focus {
+  background-color: var(--cor-cinza);
+  color: #004aa3;
+}
+
+.main-menu {
+  
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-vermelho);
+  position: fixed;
+  overflow: hidden;
+  left: 0;
+  top: var(--header-height);
+  max-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-tomorrow);
+  transition: all 1s ease-in-out;
+}
+
+.main-menu.toggled .menu {
+  max-height: 9999px;
+}
+
+.menu-item {
+  margin: 1rem 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  transition: background-color.3s ease-in-out;
+  padding: 0.6em 2em;
+  border-radius: 0.2rem;
+}
+
+.menu-item a:hover,
+.menu-item a:focus {
+  background-color: var(--cor-cinza);
+}
+
 
 /* SEÇÃO INTRO */
 
@@ -107,6 +208,8 @@ section {
 .intro-header {
   margin-bottom: 2rem;
   background-color: var(--cor-azul);
+  max-width: 60vw;
+  margin: 0 auto;
 }
 
 .intro-logo {
@@ -117,7 +220,8 @@ section {
   padding: 1rem;
   background-color: var(--cor-cinza);
   color: #004aa3;
-  font-size: 2rem;
+  font-size: calc(1.5rem * var(--font-scale));
+  line-height: 1em;
   text-transform: uppercase;
   font-family: var(--font-tomorrow);
   text-align: center;
@@ -137,7 +241,7 @@ section {
 }
 
 .programacao-card-header-horario {
-  font-size: 1.5rem;
+  font-size: calc(1.5rem * var(--font-scale));
   font-family: var(--font-tomorrow);
   margin-bottom: 0.5rem;
 }
@@ -158,23 +262,77 @@ section {
 
 .programacao-card-title {
   font-family: var(--font-fraunces);
-  font-size: 2rem;
+  font-size: calc(2rem * var(--font-scale));
   line-height: 1.2em;
   color:var(--cor-vermelho);
   margin-bottom: 0.5em;
 }
 
 .programacao-card-pessoa {
-  font-size: 1.2rem;
+  font-size: calc(1.2rem * var(--font-scale));
   text-transform: uppercase;
   line-height: 1em;
 }
 
 .programacao-card-description {
   padding: 1rem;
-  
+}
+
+/* SEÇÃO VIDEO */
+
+.video {
+  padding: 0;
+}
+
+.video-container {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+  background-color: var(--cor-azul);
+}
+
+.video-container iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* SEÇÃO PARCERIAS */
+
+.lista-logos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lista-logos .lista-logos-item {
+  width: 50%;
+  max-width: 150px;
+  padding: 1rem;
   
 }
+
+.lista-logos .lista-logos-item img {
+  background-color: silver;
+}
+
+/* RODAPÉ */
+
+.site-footer {
+  padding: 2rem;
+  background-color: var(--cor-vermelho);
+  font-size: calc(1rem * var(--font-scale));
+  line-height: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--font-tomorrow);
+}
+
 
 /* INPUTS E AUXILIARES */
 
@@ -182,9 +340,15 @@ section {
   text-align: center;
 }
 
+.content-container {
+  max-width: 43rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button {
   font-family: var(--font-tomorrow);
-  font-size: 1.3rem;
+  font-size: calc(1.3rem * var(--font-scale));
   line-height: 1em;
   text-decoration: none;
   text-transform: uppercase;
@@ -194,7 +358,7 @@ section {
   padding: 0.6em 2em;
   background-color: var(--cor-vermelho);
   border-radius: 0.2rem;
-  transition: background-color.3s ease-in-out;
+  transition: .3s ease-in-out;
   width: 100%;
 }
 
@@ -206,30 +370,8 @@ section {
 
 .button-small {
   
-  font-size: 1rem;
+  font-size: calc(1rem * var(--font-scale));
   padding: 0.6em 1em;
   width: auto;
 }
 
-/* RODAPÉ */
-
-footer {
-  padding: 2rem;
-  background-color: var(--cor-vermelho);
-  font-size: 1rem;
-  line-height: 1rem;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: var(--font-tomorrow);
-}
-
-
-/* NAVEGAÇÃO */
-
-.main-menu {
-  display: none;
-}
-
-@media (min-width:600px)  {
-  
-}

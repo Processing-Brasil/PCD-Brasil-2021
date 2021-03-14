@@ -3,54 +3,60 @@ layout: home
 title: Home
 ---
 
-<section class="programacao">
-        
-  <h2>Programação</h2>
-
-  <h3 class="data">Domingo, 11/04</h3>
-
-  <div class="programacao-lista">
-
-    <div class="programacao-card">
-      <header class="programacao-card-header">
-        <div class="programacao-card-header-horario">10 — 12h</div>
-        <div class="programacao-card-infos">
-          <h5 class="programacao-card-tipo">Workshop</h5>
-          <h4 class="programacao-card-title">Programando Coletivamente o Encontros Digitais</h4>
-           <h5 class="programacao-card-pessoa">Carlos de Oliveira Junior (Vamoss)</h5>
-        </div>             
-      </header>
-      <div class="programacao-card-description">
-        <p>Esse é um esforço coletivo para adicionar/alterar/corrigir funcionalidades no Encontros Digitais. Nesta atividade vamos aprender como instalar o Encontros Digitais para rodar no seu computador. A partir disso, vamos aprender como alterar o código e enviar contribuições para melhorar a plataforma.</p>
-        <h4>Público: Todos os públicos</h5>
-        <div class="cta">
-          <a href="#" class="button button-small">Adicionar ao calendario</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="programacao-card">
-      <header class="programacao-card-header">
-        <div class="programacao-card-header-horario">10 — 12h</div>
-        <div class="programacao-card-infos">
-          <h5 class="programacao-card-tipo">Workshop</h5>
-          <h4 class="programacao-card-title">Programando Coletivamente o Encontros Digitais</h4>
-           <h5 class="programacao-card-pessoa">Carlos de Oliveira Junior (Vamoss)</h5>
-        </div>             
-      </header>
-      <div class="programacao-card-description">
-        <p>Esse é um esforço coletivo para adicionar/alterar/corrigir funcionalidades no Encontros Digitais. Nesta atividade vamos aprender como instalar o Encontros Digitais para rodar no seu computador. A partir disso, vamos aprender como alterar o código e enviar contribuições para melhorar a plataforma.</p>
-        <h4>Público: Todos os públicos</h5>
-        <div class="cta">
-          <a href="#" class="button">Adicionar ao calendario</a>
-        </div>
-      </div>
-    </div>
-
+<section class="bem-vindo">
+  <div class="content-container">
+    <p>O Processing Community Day é um realizado no mundo todo com o objetivo de promover a interação e celebrar a diversidade de pessoas e tecnologias no universo das artes computacionais.</p>
+    <p>Esse ano a comunidade brasileira organizou o primeiro PCD nacional, com programação de uma semana inteira.</p>
   </div>
+</section>
 
-  <h3 class="data">Domingo, 11/04</h3>      
+<section class="programacao boxed">
+  <div class="content-container">
+    <h2>Programação</h2>
 
+    <h3 class="data">Domingo, 11/04</h3>
+
+    <div class="programacao-lista">
+      <div class="programacao-card">
+        <header class="programacao-card-header">
+          <div class="programacao-card-header-horario">10 — 12h</div>
+          <div class="programacao-card-infos">
+            <h5 class="programacao-card-tipo">Workshop</h5>
+            <h4 class="programacao-card-title">Programando Coletivamente o Encontros Digitais</h4>
+            <h5 class="programacao-card-pessoa">Carlos de Oliveira Junior (Vamoss)</h5>
+          </div>             
+        </header>
+        <div class="programacao-card-description">
+          <p>Esse é um esforço coletivo para adicionar/alterar/corrigir funcionalidades no Encontros Digitais. Nesta atividade vamos aprender como instalar o Encontros Digitais para rodar no seu computador. A partir disso, vamos aprender como alterar o código e enviar contribuições para melhorar a plataforma.</p>
+          <h4>Público: Todos os públicos</h5>
+          <div class="cta">
+            <a href="#" class="button button-small">Adicionar ao calendario</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="programacao-card">
+        <header class="programacao-card-header">
+          <div class="programacao-card-header-horario">10 — 12h</div>
+          <div class="programacao-card-infos">
+            <h5 class="programacao-card-tipo">Workshop</h5>
+            <h4 class="programacao-card-title">Programando Coletivamente o Encontros Digitais</h4>
+            <h5 class="programacao-card-pessoa">Carlos de Oliveira Junior (Vamoss)</h5>
+          </div>             
+        </header>
+        <div class="programacao-card-description">
+          <p>Esse é um esforço coletivo para adicionar/alterar/corrigir funcionalidades no Encontros Digitais. Nesta atividade vamos aprender como instalar o Encontros Digitais para rodar no seu computador. A partir disso, vamos aprender como alterar o código e enviar contribuições para melhorar a plataforma.</p>
+          <h4>Público: Todos os públicos</h5>
+          <div class="cta">
+            <a href="#" class="button">Adicionar ao calendario</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <h3 class="data">Domingo, 11/04</h3>      
+  </div>
 </section>
 
 <section class="galeria-chamada">
@@ -58,14 +64,25 @@ title: Home
 </section>
 
 <section class="video">
-  Inserir o vídeo?
+  <div class="video-container">
+    <iframe  src="https://www.youtube.com/embed/Pz5MQ8DTvKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </section>
 
-<section class="apoio">
-  As instituições abaixo apoiam a comunidade de programação criativa e o PCD Brasil 2021:
+<section class="parcerias">
+  <div class="content-container">
+    <h2>Parcerias</h2>
 
+    As instituições abaixo apoiam a comunidade de programação criativa e o PCD Brasil 2021:
+  </div>
   <ul class="lista-logos">
-    <li class="lista-logos-item"></li>
+    {% for instituicao in site.data.parcerias %}
+      <li class="lista-logos-item">
+        <a href="#">
+          <img src="{{ site.baseurl }}/assets/parcerias/{{ instituicao.logo }}" alt="{{ instituicao.nome }}">
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </section>
 
