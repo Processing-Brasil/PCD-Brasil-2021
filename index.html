@@ -17,41 +17,38 @@ title: Home
     <h3 class="data">Domingo, 11/04</h3>
 
     <div class="programacao-lista">
-      <div class="programacao-card">
-        <header class="programacao-card-header">
-          <div class="programacao-card-header-horario">10 — 12h</div>
-          <div class="programacao-card-infos">
-            <h5 class="programacao-card-tipo">Workshop</h5>
-            <h4 class="programacao-card-title">Programando Coletivamente o Encontros Digitais</h4>
-            <h5 class="programacao-card-pessoa">Carlos de Oliveira Junior (Vamoss)</h5>
-          </div>             
-        </header>
-        <div class="programacao-card-description">
-          <p>Esse é um esforço coletivo para adicionar/alterar/corrigir funcionalidades no Encontros Digitais. Nesta atividade vamos aprender como instalar o Encontros Digitais para rodar no seu computador. A partir disso, vamos aprender como alterar o código e enviar contribuições para melhorar a plataforma.</p>
-          <h4>Público: Todos os públicos</h5>
-          <div class="cta">
-            <a href="#" class="button button-small">Adicionar ao calendario</a>
-          </div>
-        </div>
-      </div>
 
-      <div class="programacao-card">
-        <header class="programacao-card-header">
-          <div class="programacao-card-header-horario">10 — 12h</div>
-          <div class="programacao-card-infos">
-            <h5 class="programacao-card-tipo">Workshop</h5>
-            <h4 class="programacao-card-title">Programando Coletivamente o Encontros Digitais</h4>
-            <h5 class="programacao-card-pessoa">Carlos de Oliveira Junior (Vamoss)</h5>
-          </div>             
-        </header>
-        <div class="programacao-card-description">
-          <p>Esse é um esforço coletivo para adicionar/alterar/corrigir funcionalidades no Encontros Digitais. Nesta atividade vamos aprender como instalar o Encontros Digitais para rodar no seu computador. A partir disso, vamos aprender como alterar o código e enviar contribuições para melhorar a plataforma.</p>
-          <h4>Público: Todos os públicos</h5>
-          <div class="cta">
-            <a href="#" class="button">Adicionar ao calendario</a>
+      {% for evento in site.data.grade %}
+        <div class="programacao-card">
+          <header class="programacao-card-header">
+            
+            <div class="programacao-card-infos">
+              <h5 class="programacao-card-tipo">{{ evento.Tipo }}</h5>
+              <h4 class="programacao-card-title"><span>{{ evento.Titulo }}</span></h4>
+              <h5 class="programacao-card-pessoa">{{ evento.Ministrante }}</h5>
+              <div class="programacao-card-header-horario">{{ evento.Data }}</div>
+            </div>             
+          </header>
+          <div class="programacao-card-description">
+            <div class="orientacao"></div>
+            <h4>Indicação:</h4>
+            <p>{{ evento.Publico }}</p>
+            {% if evento.Requisitos %}
+              <h4>Requisitos:</h4>
+              {{ evento.Requisitos | markdownify }}
+            {% endif %}
+            <div class="description-text">
+              {{ evento.Descricao | markdownify }}
+            </div>
+
+            
+            <div class="cta">
+              <a href="{{ evento.Calendario }}" class="button button-small">Inscrição</a>
+              <a href="{{ evento.Calendario }}" class="button button-small">Adicionar ao calendario</a>
+            </div>
           </div>
         </div>
-      </div>
+      {% endfor %}
 
     </div>
 

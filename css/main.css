@@ -175,7 +175,7 @@ section {
   text-align: center;
   text-transform: uppercase;
   font-family: var(--font-tomorrow);
-  transition: all 1s ease-in-out;
+  transition: max-height 1s ease-in;
 }
 
 .main-menu.toggled .menu {
@@ -196,6 +196,10 @@ section {
 .menu-item a:hover,
 .menu-item a:focus {
   background-color: var(--cor-cinza);
+}
+
+.menu-toggle {
+  cursor: pointer;
 }
 
 
@@ -235,8 +239,7 @@ section {
 }
 
 .programacao-card-header {
-  background-color: var(--cor-azul);
-  color: #e6e6d8;
+  
   padding: 1rem;
 }
 
@@ -266,6 +269,11 @@ section {
   line-height: 1.2em;
   color:var(--cor-vermelho);
   margin-bottom: 0.5em;
+}
+
+.programacao-card-title span {
+  background-color: var(--cor-azul);
+  color: #e6e6d8;
 }
 
 .programacao-card-pessoa {
