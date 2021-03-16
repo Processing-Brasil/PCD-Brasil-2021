@@ -89,7 +89,7 @@ p {
   margin-bottom: 1rem;
 }
 
-ul {
+ul, ol {
   padding-left: 1.2rem;
   margin-bottom: 1rem;
 }
@@ -145,6 +145,7 @@ section {
   font-size: calc(0.9rem * var(--font-scale));
   border: none;
   padding: 0.5em 1em;
+  margin: 0;
 }
 
 .button.menu-toggle:hover,
@@ -207,6 +208,7 @@ section {
 
 .intro {
   background-color: var(--cor-vermelho);
+  background-size: cover;
 }
 
 .intro-header {
@@ -235,21 +237,6 @@ section {
 
 .programacao-card {
   margin-bottom: 2rem;
-  
-}
-
-.programacao-card-header {
-  padding: 1rem;
-}
-
-.programacao-card-header-horario {
-  font-size: calc(1.5rem * var(--font-scale));
-  font-family: var(--font-tomorrow);
-  margin-bottom: 0.5rem;
-}
-
-.programacao-card-infos {
-
 }
 
 .programacao-card-tipo {
@@ -259,15 +246,16 @@ section {
   display: inline-block;
   color: #004aa3;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .programacao-card-title {
   font-family: var(--font-fraunces);
-  font-size: calc(2rem * var(--font-scale));
-  line-height: 1.2em;
+  font-size: calc(1.7rem * var(--font-scale));
+  text-transform: none;
+  line-height: 1.4em;
   color:var(--cor-vermelho);
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
   padding-left: 0.4rem;
 }
 
@@ -280,15 +268,42 @@ section {
   box-decoration-break: clone;
 }
 
-.programacao-card-pessoa {
+.programacao-card-pessoa,
+.programacao-card-horario {
+  font-family: var(--font-tomorrow);
   font-size: calc(1.2rem * var(--font-scale));
+  color: var(--cor-vermelho);
+  line-height: 1.2em;
+  margin-bottom: 0.5rem;
   text-transform: uppercase;
-  line-height: 1em;
 }
 
-.programacao-card-description {
-  padding: 1rem;
+.programacao-card-horario {
+  font-size: calc(1.3rem * var(--font-scale));
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
+
+.programacao-card-orientacao {
+  margin-bottom: 1rem;
+}
+
+.orientacao-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orientacao-item > * {
+  width: calc(100% - 12ch);
+  margin-bottom: 0;
+}
+
+.orientacao-item h4 {
+  width: 12ch;
+  padding-right: 0.5rem;
+  
+}
+
 
 /* SEÇÃO VIDEO */
 
@@ -309,6 +324,19 @@ section {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+/* SEÇÃO GALERIA e ARTIGOS */ 
+
+.galeria-chamada,
+.artigos-chamada {
+  min-height: 80vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* SEÇÃO PARCERIAS */
@@ -349,7 +377,8 @@ section {
 /* INPUTS E AUXILIARES */
 
 .cta {
-  text-align: center;
+  text-align: right;
+  
 }
 
 .content-container {
@@ -372,6 +401,8 @@ section {
   border-radius: 0.2rem;
   transition: .3s ease-in-out;
   width: 100%;
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 .button:hover,

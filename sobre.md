@@ -37,6 +37,6 @@ Participantes da organização:
 
 ### Encontros Digitais
 
-O Processing Community Day é também uma iniciativa da plataforma Encontros Digitais, um espaço de aprendizado em arte e tecnologia, tem como objetivo fortalecer a comunidade de artistas-programadores do Brasil, através da criação de ferramentas que ajudem na comunicação e compartilhamento de conhecimento.
+O Processing Community Day Brasil 2021 é também uma iniciativa da plataforma Encontros Digitais, um espaço de aprendizado em arte e tecnologia, tem como objetivo fortalecer a comunidade de artistas-programadores do Brasil, através da criação de ferramentas que ajudem na comunicação e compartilhamento de conhecimento.
 
 Participe: [https://encontrosdigitais.com.br](https://encontrosdigitais.com.br)

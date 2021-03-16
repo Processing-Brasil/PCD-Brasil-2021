@@ -10,54 +10,40 @@ title: Home
   </div>
 </section>
 
-<section class="programacao boxed">
+<section id="programacao" class="programacao">
   <div class="content-container">
     <h2>Programação</h2>
 
     <h3 class="data">Domingo, 11/04</h3>
+    {% include programacao.html dia='1' %}
 
-    <div class="programacao-lista">
+    <h3 class="data">Segunda, 12/04</h3>  
+    {% include programacao.html dia='2' %}
 
-      {% for evento in site.data.grade %}
-        <div class="programacao-card">
-          <header class="programacao-card-header">
-            
-            <div class="programacao-card-infos">
-              <h5 class="programacao-card-tipo">{{ evento.Tipo }}</h5>
-              <h4 class="programacao-card-title"><span>{{ evento.Titulo }}</span></h4>
-              <h5 class="programacao-card-pessoa">{{ evento.Ministrante }}</h5>
-              <div class="programacao-card-header-horario">{{ evento.Data }}</div>
-            </div>             
-          </header>
-          <div class="programacao-card-description">
-            <div class="orientacao"></div>
-            <h4>Indicação:</h4>
-            <p>{{ evento.Publico }}</p>
-            {% if evento.Requisitos %}
-              <h4>Requisitos:</h4>
-              {{ evento.Requisitos | markdownify }}
-            {% endif %}
-            <div class="description-text">
-              {{ evento.Descricao | markdownify }}
-            </div>
+    <h3 class="data">Terça, 12/04</h3>  
+    {% include programacao.html dia='3' %}    
 
-            
-            <div class="cta">
-              <a href="{{ evento.Calendario }}" class="button button-small">Inscrição</a>
-              <a href="{{ evento.Calendario }}" class="button button-small">Adicionar ao calendario</a>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
+    <h3 class="data">Quarta, 12/04</h3>  
+    {% include programacao.html dia='4' %}    
 
-    </div>
+    <h3 class="data">Quinta, 12/04</h3>  
+    {% include programacao.html dia='5' %}    
 
-    <h3 class="data">Domingo, 11/04</h3>      
+    <h3 class="data">Sexta, 12/04</h3>  
+    {% include programacao.html dia='6' %}
+
+    <h3 class="data">Sábado, 12/04</h3>  
+    {% include programacao.html dia='7' %}
+
   </div>
 </section>
 
-<section class="galeria-chamada">
-  Chamada para galeria
+<section class="galeria-chamada" style="background-image: url({{site.baseurl}}/assets/PCD-BR-2021-Galeria-Cover.jpg);">
+  <a href="{{ site.baseurl }}/galeria.html" class="button">Confira a exposição digital</a>
+</section>
+
+<section class="artigos-chamada" >
+  <p>Lista simples com os artigos</p>
 </section>
 
 <section class="video">

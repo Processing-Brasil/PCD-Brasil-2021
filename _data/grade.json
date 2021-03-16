@@ -411,7 +411,7 @@
     "diaEvento": "1",
     "data": "todos os dias, de 11 a 17/04",
     "horario": "19:00",
-    "duracao": "2 horas",
+    "duracao": "7 encontros de 2 horas",
     "tipo": "workshop",
     "titulo": "Integração audiovisual via protocolo OSC com Processing e Pure Data",
     "proponente": "Vinícius Fernandes",
