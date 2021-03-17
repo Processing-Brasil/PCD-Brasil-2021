@@ -27,23 +27,30 @@
           <h4>Duração:</h4>
           <p>{{ evento.duracao }}</p>
         </div>
-        <div class="orientacao-item">
-          {% if evento.requisitos %}
-            <h4>Requisitos:</h4>
-            <div>
-              {{ evento.requisitos | markdownify }}
-            </div>
-          {% endif %}
-        </div>
+        
       </div>
-                 
-      <div class="programacao-card-description">
-          {{ evento.descricao | markdownify }}
+      
+      <div class="infoextra">
+        <div class="programacao-card-description">
+            {{ evento.descricao | markdownify }}
+        </div>
+
+        <div class="programacao-card-orientacao">
+          <div class="orientacao-item">
+            {% if evento.requisitos %}
+              <h4>Requisitos:</h4>
+              <div>
+                {{ evento.requisitos | markdownify }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
       </div>
        
       <div class="cta">
-        <a href="{{ evento.urlInscricao }}" class="button button-small">Inscrição</a>
-        <a href="{{ evento.urlCalendar }}" class="button button-small">Adicionar ao calendario</a>
+        <a class="plus-button"></a>
+        <a href="{{ evento.urlCalendar }}" class="secondary-button" target="blank">Adicionar ao calendário</a>
+        <a href="{{ evento.urlInscricao }}" class="button button-small" target="blank">Inscrição</a>
       </div>
        
     </div>
