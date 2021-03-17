@@ -70,11 +70,15 @@ h3 {
   text-transform: uppercase;
   font-weight: 500;
   padding: 0.4em 0.7em;
+  width: 100%;
   border-radius: 0.2rem;
   background-color: #ff666c;
   display: inline-block;
   margin-bottom: 1rem;
+  text-align: center;
 }
+
+
 
 h4 {
   margin-bottom: 1rem;
@@ -235,8 +239,13 @@ section {
 
 /* SEÇÃO PROGRAMAÇÃO */
 
+.programacao-data {
+  position: sticky;
+  top: 60px;
+}
+
 .programacao-card {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .programacao-card-tipo {
@@ -418,3 +427,32 @@ section {
   width: auto;
 }
 
+.secondary-button {
+  font-size: calc(0.8rem * var(--font-scale));
+  padding: 1em;
+}
+
+.plus-button {
+  cursor: pointer;
+  float: left;
+  font-size: calc(1.0rem * var(--font-scale));
+  padding: 0.4em 0em;
+  color: var(--cor-vermelho);
+  width: auto;
+  outline: none;
+}
+
+.plus-button:after {
+  content: '\002B  Saiba mais';
+  font-weight: bold;
+}
+
+.active:after {
+  content: "\2212  Fechar";
+}
+
+.infoextra {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
