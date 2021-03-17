@@ -2,6 +2,23 @@
   {
     "diaEvento": "1",
     "data": "dom. 11/04",
+    "horario": "09:00",
+    "duracao": "1 hora",
+    "tipo": null,
+    "titulo": "Abertura PCD21BR",
+    "proponente": "Organizadores PCDBR",
+    "descricao": "Evento de abertura do Processing Community Day 2021, aberto a todas as pessoas. Lançamento da galeria virtual de trabalhos da comunidade de programação criativa",
+    "publico": "todos os públicos",
+    "vagas": "live",
+    "requisitos": null,
+    "minibio": null,
+    "foto": null,
+    "urlCalendar": null,
+    "urlInscricao": null
+  },
+  {
+    "diaEvento": "1",
+    "data": "dom. 11/04",
     "horario": "10:00",
     "duracao": "2 horas",
     "tipo": "workshop",
@@ -406,6 +423,23 @@
     "foto": "https://rodjun.com/images/me.jpg",
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=M3NiajhsdDFjNHV1azk5dGZrZWc0Y2VxdTcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "em breve"
+  },
+  {
+    "diaEvento": "7",
+    "data": "sáb. 17/04",
+    "horario": "18:00",
+    "duracao": "1 hora",
+    "tipo": null,
+    "titulo": "Lightning Talks",
+    "proponente": "Organizadores PCDBR",
+    "descricao": "Lightning Talks, ou melhor, os Relâmpagos, já são uma tradição da nossa comunidade. Cada participante se inscreve na hora para falar rapidamente de algum assunto relacionado à programação criativa, sobre seus trabalhos, sobre alguma referência legal que viu por aí, é bem livre! A única regra é que cada apresentação deve acontecer dentro de 5 minutos, e ao final da cronometragem todos batem palmas!",
+    "publico": "todos os públicos",
+    "vagas": "100",
+    "requisitos": null,
+    "minibio": null,
+    "foto": null,
+    "urlCalendar": null,
+    "urlInscricao": null
   },
   {
     "diaEvento": "1",
