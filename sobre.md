@@ -3,6 +3,14 @@ layout: default
 title: Sobre
 ---
 
+<section class="video">
+  <div class="video-container">
+    <iframe  src="https://www.youtube.com/embed/Pz5MQ8DTvKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <br>
+  <br>
+</section>
+
 O Processing Community Day Brasil 2021 é um evento que reúne comunidades interessadas em criatividade computacional a partir da plataforma Processing, uma tecnologia democratizadora, aberta e acessível que viabiliza a expressão artístico-multimidiática a quaisquer pessoas. Idealizado pela Processing Foundation, o evento Processing Community Day (PCD) ocorre em diversas cidades do mundo onde existem comunidades de artistas e entusiastas organizadas em torno da plataforma.
 
 Neste ano, ainda em contexto de pandemia e isolamento social, comunidades de diversas cidades brasileiras se reuniram para organizar um PCD nacional e online, com o intuito de integrar e descentralizar a comunidade de artistas e criativos de tecnologia, e ao mesmo tempo ser um farol para a produção brasileira através da plataforma, sobretudo entre semelhanças e diferenças presentes na diversidade criativa.
@@ -23,17 +31,26 @@ O PCD2021 Brasil ocorrerá entre os dias 11 e 17 de Abril de 2021, e contará co
 
 Essa edição foi organizada pela comunidade Processing Brasil, uma comunidade voltada a programação criativa, aberta a diversidade de pessoas e tecnologias.
 
-Participantes da organização:
+Participantes que fazem parte da organização ou pessoas contribuiram com o evento:
 
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
-- [Nome da pessoa](link)
+- Alexandre Villares
+- André Burnier
+- Bárbara Castro
+- Bernardo Fontes (Berin)
+- Carlos de Oliveira
+- Claudio Esperança
+- Giselle de Arruda
+- Guilherme Ranoya
+- Guilherme Vieira
+- Mariana Leal
+- Monica Rizzolli
+- Rodrigo Junqueira
+- Rodrigo Rezende
+- Sergio Venancio
+- Sergio Venâncio
+- Uriá Fassina
+- Vinícius Barros
+
 
 ### Encontros Digitais
 

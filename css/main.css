@@ -76,6 +76,7 @@ h3 {
   display: inline-block;
   margin-bottom: 1rem;
   text-align: center;
+  margin-top: 3rem;
 }
 
 
@@ -130,12 +131,17 @@ section {
 
 .logo-reduzido {
   font-size: calc(1.2rem * var(--font-scale));
-  color:var(--cor-cinza);
+  
   font-family: var(--font-tomorrow);
   text-transform: uppercase;
   font-weight: 500;
   padding: 0;
   margin: 0;
+}
+
+.logo-reduzido a {
+  color:var(--cor-cinza);
+  text-decoration: none;
 }
 
 .logo-reduzido span {
@@ -213,27 +219,38 @@ section {
 .intro {
   background-color: var(--cor-vermelho);
   background-size: cover;
+  min-height: 100vh;
+  padding: 8rem 1rem;
 }
 
 .intro-header {
   margin-bottom: 2rem;
-  background-color: var(--cor-azul);
-  max-width: 60vw;
+  background-color: var(--cor-cinza);
+  max-width: 43rem;
   margin: 0 auto;
 }
 
 .intro-logo {
-  padding: 1rem;
+  padding: 2rem;
+  background-color: var(--cor-azul);
 }
 
 .intro-data {
   padding: 1rem;
-  background-color: var(--cor-cinza);
-  color: #004aa3;
+  background-color: var(--cor-vermelho);
+  color: var(--cor-cinza);
   font-size: calc(1.5rem * var(--font-scale));
   line-height: 1em;
   text-transform: uppercase;
   font-family: var(--font-tomorrow);
+  text-align: center;
+}
+
+.intro-bemvindo {
+  padding: 3rem 2rem;
+}
+
+.intro .cta {
   text-align: center;
 }
 
@@ -350,24 +367,28 @@ section {
 
 /* SEÇÃO PARCERIAS */
 
+.parcerias {
+  background-color: white;
+}
 .lista-logos {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+ 
 }
 
 .lista-logos .lista-logos-item {
-  width: 50%;
-  max-width: 150px;
   padding: 1rem;
-  
 }
 
 .lista-logos .lista-logos-item img {
-  background-color: silver;
+  
+  max-width: 150px;
+  max-height: 100px;
 }
 
 /* RODAPÉ */
@@ -376,7 +397,7 @@ section {
   padding: 2rem;
   background-color: var(--cor-vermelho);
   font-size: calc(1rem * var(--font-scale));
-  line-height: 1rem;
+  line-height: 1.2em;
   text-transform: uppercase;
   text-align: center;
   font-family: var(--font-tomorrow);
