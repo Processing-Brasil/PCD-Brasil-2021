@@ -1,0 +1,62 @@
+<div class="programacao-lista">
+
+  {% for evento in site.data.grade %}
+
+  {% if evento.diaEvento == include.dia %}
+    
+    <div class="programacao-card">
+
+      <header class="programacao-card-header">
+        <div class="programacao-card-infos">
+          <h5 class="programacao-card-tipo">{{ evento.tipo }}</h5>
+          <h4 class="programacao-card-title"><span>{{ evento.titulo }}</span></h4>
+          <div class="programacao-card-pessoa">{{ evento.proponente }}</div>
+        </div>             
+      </header>
+
+      <div class="programacao-card-orientacao">
+        <div class="orientacao-item">
+          <h4>Horário:</h4>
+          <p>{{ evento.horario }}</p>
+        </div>
+        <div class="orientacao-item">
+          <h4>Indicação:</h4>
+          <p>{{ evento.publico }}</p>
+        </div>
+        <div class="orientacao-item">
+          <h4>Duração:</h4>
+          <p>{{ evento.duracao }}</p>
+        </div>
+        
+      </div>
+      
+      <div class="infoextra">
+        <div class="programacao-card-description">
+            {{ evento.descricao | markdownify }}
+        </div>
+
+        <div class="programacao-card-orientacao">
+          <div class="orientacao-item">
+            {% if evento.requisitos %}
+              <h4>Requisitos:</h4>
+              <div>
+                {{ evento.requisitos | markdownify }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+       
+      <div class="cta">
+        <a class="plus-button"></a>
+        <a href="{{ evento.urlCalendar }}" class="secondary-button" target="blank">Adicionar ao calendário</a>
+        <!--<a href="{{ evento.urlInscricao }}" class="button button-small" target="blank">Inscrição</a>-->
+        <a href="" class="button button-small inactive-button">Inscrições<br> em breve</a>
+      </div>
+       
+    </div>
+
+  {% endif %}
+  {% endfor %}
+
+</div>

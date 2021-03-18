@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "ESPM - Rio",
+    "logo": "",
+    "site": "#"
+  },
+  {
+    "nome": "FAU-USP",
+    "logo": "fau_usp.png",
+    "site": "#"
+  },
+  {
+    "nome": "Labinter - UFSM",
+    "logo": "",
+    "site": "#"
+  },
+  {
+    "nome": "LabVis - UFRJ",
+    "logo": "LabVis.png",
+    "site": "#"
+  },
+  {
+    "nome": "LIFE / DAD / PUC-Rio",
+    "logo": "",
+    "site": "#"
+  },
+  {
+    "nome": "Media Lab / BR",
+    "logo": "MediaLabBr.png",
+    "site": "#"
+  },
+  {
+    "nome": "Media Lab / UnB",
+    "logo": "MediaLaba-UNB.png",
+    "site": "#"
+  },
+  {
+    "nome": "Media Lab/Unifesspa",
+    "logo": "MediaLaba-UFG.png",
+    "site": "#"
+  },
+  {
+    "nome": "NANO UFRJ",
+    "logo": "nano.png",
+    "site": "#"
+  },
+  {
+    "nome": "NICS - Unicamp",
+    "logo": "NICS.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFBA",
+    "logo": "UFBA.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFC - Universidade Federal do Ceará",
+    "logo": "UFC.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFPE",
+    "logo": "UFPE.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFRB",
+    "logo": "UFRB.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFSCar - Dac",
+    "logo": "UFSCar.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFV",
+    "logo": "UFV.png",
+    "site": "#"
+  },
+  {
+    "nome": "Unesp - Instituto de Artes Sp",
+    "logo": "UNESP.png",
+    "site": "#"
+  },
+  {
+    "nome": "UNILA - Universidade Federal da Integração Latino-americana",
+    "logo": "",
+    "site": "#"
+  },
+  {
+    "nome": "USP - ECA",
+    "logo": "ECA_USP.png",
+    "site": "#"
+  },
+  {
+    "nome": "VISGRAF/IMPA",
+    "logo": "",
+    "site": "#"
+  }
+]
