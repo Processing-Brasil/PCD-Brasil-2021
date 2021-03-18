@@ -1,6 +1,7 @@
 title: Processing Community Brasil - 2021
 email: processingbrasil@gmail.com
-url: https://pcd.encontrosdigitais.com.br/ 
+baseurl: https://pcd.encontrosdigitais.com.br
+
 permalink: pretty
 exclude:
  - README.md
