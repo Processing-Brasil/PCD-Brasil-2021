@@ -29,6 +29,8 @@
         </div>
         
       </div>
+
+      
       
       <div class="infoextra">
         <div class="programacao-card-description">
@@ -50,13 +52,22 @@
       <div class="cta">
         <a class="plus-button"></a>
         <a href="{{ evento.urlCalendar }}" class="secondary-button" target="blank">Adicionar ao calendário</a>
-        <!--<a href="{{ evento.urlInscricao }}" class="button button-small" target="blank">Inscrição</a>-->
-        <a href="" class="button button-small inactive-button">Inscrições<br> em breve</a>
+        {% if evento.urlInscricao %}
+          <a href="{{ evento.urlInscricao }}" class="button button-small" target="blank">Inscrição</a>
+          <!--<a href="" class="button button-small inactive-button">Inscrições<br> em breve</a>-->       
+        {% endif %}
       </div>
-       
+
+      {% if evento.urlInscricao %}
+      {% else %}
+        <div class="sem-inscricao">
+          <p>Evento sem necessidade de inscrição, assista no <a href="https://www.youtube.com/channel/UCOiwQ_BVKNn6ftNaDqfPraw">YouTube</a>.</p>
+        </div>
+      {% endif %}
+
     </div>
 
-  {% endif %}
+    {% endif %}
   {% endfor %}
 
 </div>
