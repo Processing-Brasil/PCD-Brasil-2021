@@ -9,6 +9,7 @@
   --cor-azul: #004aa3;
   --cor-vermelho: #ff666c;
   --cor-cinza: #e6e6d8;
+  --cor-cinza-inativo: #888888;
   --header-height: 3rem;
   --font-scale: 1;
 }
@@ -55,6 +56,13 @@ h1 {
   font-size: calc(3rem * var(--font-scale));
   margin-bottom: 2rem;
   line-height: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: calc(2.2rem * var(--font-scale));
+    text-align: center;
+  }
 }
 
 h2 {
@@ -446,6 +454,15 @@ section {
   font-size: calc(1rem * var(--font-scale));
   padding: 0.6em 1em;
   width: auto;
+}
+
+.inactive-button {
+  background-color: var(--cor-cinza-inativo);;
+}
+
+.inactive-button:hover,
+.inactive-button:focus {
+  background-color: var(--cor-cinza-inativo);;
 }
 
 .secondary-button {

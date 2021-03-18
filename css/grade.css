@@ -1,0 +1,394 @@
+#gradetotalA {
+    float: left;
+    width: calc(28.5% + 30px);
+    display: grid;
+    grid-template-columns: 40px 1fr 1fr 1fr 1fr;
+    grid-template-areas: "horario domingoA domingoB segundaA segundaB";
+    row-gap: 5px;
+    font-size: 10px;
+
+}
+
+#gradetotalB {
+    width: calc(28.5% - 10px);
+    float: left;
+    display: grid;
+    grid-template-columns: 0 1fr 1fr 1fr 1fr;
+    grid-template-areas: "horario tercaA tercaB quartaA quartaB";
+    row-gap: 5px;
+    font-size: 10px;
+
+}
+
+#gradetotalC {
+    width: calc(28.5% - 10px);
+    float: left;
+    display: grid;
+    grid-template-columns: 0 1fr 1fr 1fr 1fr;
+    grid-template-areas: "horario quintaA quintaB sextaA sextaB";
+    row-gap: 5px;
+    font-size: 10px;
+
+}
+
+#gradetotalD {
+    width: calc(14.28% - 10px);
+    float: left;
+    display: grid;
+    grid-template-columns: 0 1fr 1fr;
+    grid-template-areas: "horario sabadoA sabadoB";
+    row-gap: 5px;
+    font-size: 10px;
+
+}
+
+
+
+.linhas {
+    border-top: 1px solid #003fa922;
+    grid-column-start: horario;
+    grid-column-end: sabadoB;
+    grid-row-end: span 1;
+}
+
+.dias {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-weight: bold;
+    color: #ff5460FF;
+}
+
+.horarios {
+    grid-column-start: horario;
+    grid-column-end: horario;
+    height: 20px;
+    line-height: 30px;
+    overflow: hidden;
+    color: rgb(236, 158, 163);
+
+}
+
+.espacador {
+    height: 0px;
+}
+
+.domA {
+    grid-column-start: domingoA;
+}
+
+.domB {
+    grid-column-start: domingoB;
+}
+
+.segA {
+    grid-column-start: segundaA;
+}
+
+.segB {
+    grid-column-start: segundaB;
+}
+
+.terA {
+    grid-column-start: tercaA;
+}
+
+.terB {
+    grid-column-start: tercaB;
+}
+
+.quarA {
+    grid-column-start: quartaA;
+}
+
+.quarB {
+    grid-column-start: quartaB;
+}
+
+.quiA {
+    grid-column-start: quintaA;
+}
+
+.quiB {
+    grid-column-start: quintaB;
+}
+
+.sexA {
+    grid-column-start: sextaA;
+}
+
+.sexB {
+    grid-column-start: sextaB;
+}
+
+.sabA {
+    grid-column-start: sabadoA;
+}
+
+.sabB {
+    grid-column-start: sabadoB;
+}
+
+.tipoInst {
+    background-color: #ff5460FF;
+}
+
+.tipoPalestra {
+    background-color: rgb(228, 96, 105);
+}
+
+.tipoWorkshop {
+    background-color: rgb(192, 48, 57);
+}
+
+.tipoSprint {
+    background-color: rgb(121, 83, 86);
+}
+
+.tipoPerformance {
+    background-color: rgb(119, 5, 12);
+}
+
+#gradetotalA a,
+#gradetotalB a,
+#gradetotalC a,
+#gradetotalD a {
+    color: #e6e7d7;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#gradetotalA a:hover,
+#gradetotalB a:hover,
+#gradetotalC a:hover,
+#gradetotalD a:hover {
+    background-color: #003fa9;
+    color: #ff5460;
+}
+
+.comeca9 {
+    grid-row-start: 3;
+}
+
+.comeca930 {
+    grid-row-start: 4;
+}
+
+.comeca10 {
+    grid-row-start: 5;
+}
+
+.comeca1030 {
+    grid-row-start: 6;
+}
+
+.comeca11 {
+    grid-row-start: 7;
+}
+
+.comeca1130 {
+    grid-row-start: 8;
+}
+
+.comeca12 {
+    grid-row-start: 9;
+}
+
+.comeca1230 {
+    grid-row-start: 10;
+}
+
+.comeca13 {
+    grid-row-start: 11;
+}
+
+.comeca1330 {
+    grid-row-start: 12;
+}
+
+.comeca14 {
+    grid-row-start: 13;
+}
+
+.comeca1430 {
+    grid-row-start: 14;
+}
+
+.comeca15 {
+    grid-row-start: 15;
+}
+
+.comeca1530 {
+    grid-row-start: 16;
+}
+
+.comeca16 {
+    grid-row-start: 17;
+}
+
+.comeca1630 {
+    grid-row-start: 18;
+}
+
+.comeca17 {
+    grid-row-start: 19;
+}
+
+.comeca1730 {
+    grid-row-start: 20;
+}
+
+.comeca18 {
+    grid-row-start: 21;
+}
+
+.comeca1830 {
+    grid-row-start: 22;
+}
+
+.comeca19 {
+    grid-row-start: 23;
+}
+
+.comeca1930 {
+    grid-row-start: 24;
+}
+
+.comeca20 {
+    grid-row-start: 25;
+}
+
+.comeca2030 {
+    grid-row-start: 26;
+}
+
+.comeca21 {
+    grid-row-start: 27;
+}
+
+@media screen and (max-width: 970px) {
+
+    #gradetotalA {
+        float: left;
+        width: calc(33.3% + 26px);
+    }
+
+    #gradetotalB {
+        width: calc(33.3% - 13px);
+    }
+
+    #gradetotalC {
+        width: calc(33.3% - 13px);
+    }
+
+    #gradetotalD {
+        grid-template-columns: 40px 1fr 1fr;
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1150px) {
+
+    #gradetotalA,
+    #gradetotalB,
+    #gradetotalC,
+    #gradetotalD {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+
+    .dias {
+        font-size: 12px;
+
+    }
+
+    #gradetotalA {
+        font-size: 8px;
+
+    }
+
+    #gradetotalB {
+        font-size: 8px;
+
+    }
+
+    #gradetotalC {
+        font-size: 8px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    #gradetotalA .comeca1230,
+    #gradetotalA .comeca13,
+    #gradetotalA .comeca1330,
+    #gradetotalB .comeca9,
+    #gradetotalB .comeca930,
+    #gradetotalB .comeca10,
+    #gradetotalB .comeca1030,
+    #gradetotalB .comeca11,
+    #gradetotalB .comeca1130,
+    #gradetotalB .comeca12,
+    #gradetotalB .comeca1230,
+    #gradetotalB .comeca13,
+    #gradetotalB .comeca1330,
+    #gradetotalB .comeca14,
+    #gradetotalB .comeca1430,
+    #gradetotalB .comeca15,
+    #gradetotalB .comeca1530,
+    #gradetotalB .comeca16,
+    #gradetotalB .comeca1630,
+    #gradetotalB .comeca17,
+    #gradetotalB .comeca1730,
+    #gradetotalB .comeca18,
+    #gradetotalc .comeca9,
+    #gradetotalc .comeca930,
+    #gradetotalc .comeca10,
+    #gradetotalc .comeca1030,
+    #gradetotalc .comeca11,
+    #gradetotalc .comeca1130,
+    #gradetotalc .comeca12,
+    #gradetotalc .comeca1230,
+    #gradetotalc .comeca13,
+    #gradetotalc .comeca1330,
+    #gradetotalc .comeca14 {
+        row-gap: 0;
+        overflow-y: hidden;
+        height: 0;
+
+    }
+
+
+    .dias {
+        font-size: 16px;
+    }
+
+    #gradetotalA {
+        grid-template-columns: 40px 1fr 1fr 1fr 1fr;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    #gradetotalB {
+        grid-template-columns: 40px 1fr 1fr 1fr 1fr;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    #gradetotalC {
+        grid-template-columns: 40px 1fr 1fr 1fr 1fr;
+        ;
+        width: 100%;
+        font-size: 10px;
+    }
+
+
+}
