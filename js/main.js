@@ -1,6 +1,9 @@
-// NAVEGAÇÃO
+
 
 ( function() {
+
+	// NAVEGAÇÃO
+
 	var container, button, menu;
 
 	container = document.getElementById( 'site-navigation' );
@@ -32,6 +35,8 @@
 			menu.setAttribute( 'aria-expanded', 'true' );
 		}
 	};
+
+	// ACCORDEON
 
 	var acc = document.getElementsByClassName("plus-button");
 	var i;
