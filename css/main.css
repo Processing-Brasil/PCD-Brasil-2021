@@ -338,6 +338,17 @@ section {
   
 }
 
+.programacao-card .cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1em;
+}
+
+.programacao-card .cta > * {
+  margin: 0;
+}
+
 
 /* SEÇÃO VIDEO */
 
@@ -415,7 +426,7 @@ section {
 /* INPUTS E AUXILIARES */
 
 .cta {
-  text-align: right;
+  text-align: left;
   
 }
 
@@ -472,7 +483,6 @@ section {
 
 .plus-button {
   cursor: pointer;
-  float: left;
   font-size: calc(1.0rem * var(--font-scale));
   padding: 0.4em 0em;
   color: var(--cor-vermelho);
