@@ -478,7 +478,6 @@ section {
 
 .secondary-button {
   font-size: calc(0.8rem * var(--font-scale));
-  padding: 1em;
 }
 
 .plus-button {
