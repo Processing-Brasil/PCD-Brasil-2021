@@ -3,3 +3,5 @@ email: processingbrasil@gmail.com
 baseurl: "" 
 url: "pcd.encontrosdigitais.com.br" 
 permalink: pretty
+exclude:
+ - README.md
