@@ -47,7 +47,6 @@ Participantes que fazem parte da organização ou pessoas contribuiram com o eve
 - Rodrigo Junqueira
 - Rodrigo Rezende
 - Sergio Venancio
-- Sergio Venâncio
 - Uriá Fassina
 - Vinícius Barros
 
