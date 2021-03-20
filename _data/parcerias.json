@@ -1,102 +1,143 @@
 [
   {
-    "nome": "ESPM - Rio",
-    "logo": "",
+    "nome": "Rede Compoética",
+    "logo": "Compoetica-PB.png",
     "site": "#"
   },
   {
-    "nome": "FAU-USP",
-    "logo": "fau_usp.png",
+    "nome": "D+C",
+    "logo": "D+C.png",
     "site": "#"
   },
   {
-    "nome": "Labinter - UFSM",
-    "logo": "",
+    "nome": "dDesign-UFPE",
+    "logo": "dDesign-UFPE.png",
     "site": "#"
   },
   {
-    "nome": "LabVis - UFRJ",
-    "logo": "LabVis.png",
+    "nome": "ECA",
+    "logo": "ECApb.png",
     "site": "#"
   },
   {
-    "nome": "LIFE / DAD / PUC-Rio",
-    "logo": "",
+    "nome": "FAU USP",
+    "logo": "FAU-USP.png",
     "site": "#"
   },
   {
-    "nome": "Media Lab / BR",
-    "logo": "MediaLabBr.png",
+    "nome": "GIIP",
+    "logo": "GIIP.png",
     "site": "#"
   },
   {
-    "nome": "Media Lab / UnB",
-    "logo": "MediaLaba-UNB.png",
+    "nome": "Grupo Realidades",
+    "logo": "Grupo Realidades.png",
     "site": "#"
   },
   {
-    "nome": "Media Lab/Unifesspa",
-    "logo": "MediaLaba-UFG.png",
+    "nome": "IMPA",
+    "logo": "IMPApb.png",
     "site": "#"
   },
   {
-    "nome": "NANO UFRJ",
-    "logo": "nano.png",
+    "nome": "Labvis",
+    "logo": "labvis 1.png",
     "site": "#"
   },
   {
-    "nome": "NICS - Unicamp",
-    "logo": "NICS.png",
+    "nome": "Life",
+    "logo": "Life.png",
+    "site": "#"
+  },
+  {
+    "nome": "MusTIC",
+    "logo": "MusTIC.png",
+    "site": "#"
+  },
+  {
+    "nome": "PUC Rio",
+    "logo": "PUCRRIO.png",
     "site": "#"
   },
   {
     "nome": "UFBA",
-    "logo": "UFBA.png",
+    "logo": "UFBApb.png",
     "site": "#"
   },
   {
-    "nome": "UFC - Universidade Federal do Ceará",
-    "logo": "UFC.png",
+    "nome": "UFC",
+    "logo": "UFCpb.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFG",
+    "logo": "UFGpb.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFMG",
+    "logo": "UFMGpb.png",
     "site": "#"
   },
   {
     "nome": "UFPE",
-    "logo": "UFPE.png",
+    "logo": "UFPEpb.png",
     "site": "#"
   },
   {
     "nome": "UFRB",
-    "logo": "UFRB.png",
+    "logo": "UFRBpb.png",
     "site": "#"
   },
   {
-    "nome": "UFSCar - Dac",
-    "logo": "UFSCar.png",
+    "nome": "UFRJ",
+    "logo": "UFRJ.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFSCAR",
+    "logo": "UFSCARpb.png",
+    "site": "#"
+  },
+  {
+    "nome": "UFSM",
+    "logo": "UFSMpb.png",
     "site": "#"
   },
   {
     "nome": "UFV",
-    "logo": "UFV.png",
+    "logo": "UFVpb.png",
     "site": "#"
   },
   {
-    "nome": "Unesp - Instituto de Artes Sp",
-    "logo": "UNESP.png",
+    "nome": "UNB",
+    "logo": "UNBpb.png",
     "site": "#"
   },
   {
-    "nome": "UNILA - Universidade Federal da Integração Latino-americana",
-    "logo": "",
+    "nome": "UNESP",
+    "logo": "UNESPpb.png",
     "site": "#"
   },
   {
-    "nome": "USP - ECA",
-    "logo": "ECA_USP.png",
+    "nome": "UNICAMP",
+    "logo": "UNICAMPpb.png",
     "site": "#"
   },
   {
-    "nome": "VISGRAF/IMPA",
-    "logo": "",
+    "nome": "UNIFESSPA",
+    "logo": "UNIFESSPApb.png",
+    "site": "#"
+  },
+  {
+    "nome": "UNIFOR",
+    "logo": "UNIFOR.png",
+    "site": "#"
+  },
+  {
+    "nome": "UNILA",
+    "logo": "UNILA.png",
     "site": "#"
   }
+  
 ]
