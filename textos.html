@@ -1,0 +1,30 @@
+---
+layout: default
+title: Textos
+---
+
+{% for texto in site.data.textos %}
+
+<div class="texto">
+  
+  <header class="texto-header">
+    <h4 class="texto-titulo"><span>{{ texto.textoTitulo }}</span></h4>
+    <h5 class="texto-autoria"> {{ texto.nomeArtistico }}</h5>
+  </header>
+
+  <div class="texto-resumo">
+    {{ texto.textoResumo | markdownify }}
+  </div>
+
+  <div class="texto-minibio">
+    <strong>{{ texto.nomeArtistico }}: </strong>
+    {{ texto.minibio  }}
+  </div>
+
+  <div class="cta">
+    <a href="{{ texto.textoUrl }}" alt="{{ texto.textoTitulo }}" class="button button-small">Acessar texto</a>
+  </div>
+
+</div>
+
+{% endfor %}

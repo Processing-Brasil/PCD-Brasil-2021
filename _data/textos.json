@@ -1,0 +1,29 @@
+[
+  {
+    "nome": "Anderson Koyama Vieira",
+    "nomeArtistico": "Anderson Koyama",
+    "minibio": "Designer multidisciplinar com formação em design industrial interessado no desenvolvimento de soluções físico-digitais de produtos e serviços, a fim de proporcionar experiências de impacto positivo em diferentes segmentos. Entusiasta do creative coding, se interessa por tecnologias emergentes, experimentando até onde o processo criativo pode ir e testando todas as possibilidades que podem surgir dele, combinando dados com abordagem generativa.",
+    "foto": "https://drive.google.com/file/d/1PZbyVk8CMnOkqQlJniyBCLg7oONH3X_a/view?usp=sharing",
+    "textoTitulo": "Design Generativo - Estudo exploratório sobre o uso de programação no design",
+    "textoResumo": "Atualmente, o uso de novas tecnologias influencia diretamente o processo de criação do\ndesigner. A programação é uma destas ferramentas e vem sendo utilizada, por exemplo,\nem aplicações do design que tem sido chamadas de Design Paramétrico e Design\nGenerativo. Assim sendo, o objetivo desse trabalho é realizar um estudo exploratório\nsobre a influência da programação no processo de design e em sua linguagem visual.\nPara atingir esse objetivo, foi levantado um histórico desta prática, traçado um\npanorama de projetos da atualidade e foram realizadas experimentações práticas que\nexploraram as possibilidades e potencialidades deste modo de fazer design na área\nvisual. Estas explorações revelaram pontos importantes do processo de design que\nenvolve a programação. Pontos esses que discutimos neste trabalho e que nos\npermitiram compreender melhor como se dá esta prática.",
+    "textoUrl": "https://www.fau.usp.br/fauforma/2015/anderson_vieira/"
+  },
+  {
+    "nome": "Artur Cabral Reis",
+    "nomeArtistico": "Artur Cabral",
+    "minibio": "Artista computacional mestre em Artes Visuais pela Universidade de Brasília, doutorando bolsista CAPES também na Universidade de Brasília. Atualmente faz parte da equipe do Medialab/UNB, onde em suas pesquisas explora a relação arte e a computação em por meio de interfaces e poéticas computacionais.",
+    "foto": "https://arturcabral.me/images/me.jpg",
+    "textoTitulo": "Apontamentos Sobre Arte Computacional e a  Web em seus Pontozeros",
+    "textoResumo": "A dinâmica da cultura na rede mundial de computadores desafia e movimenta múltiplos aspectos sociais, inclusive as articulações sensíveis e poéticas. Esse texto busca explorar a trajetória dos fenômenos da Web em seus vários estágios e fazer alguns apontamentos de como a arte dialoga com essas mudanças, mediante a apresentação de alguns trabalhos artísticos. Dentre os trabalhos aqui relatados, apresentamos também as obras desenvolvidas no contexto do laboratório de pesquisa em arte computacional (MediaLab/UnB) intituladas \"Prece_\" e “Flores de Plástico não Morrem”. Ambas concebidas a partir do diálogo poético com os paradigmas relacionados à Web.",
+    "textoUrl": "https://docs.google.com/document/d/1M02gbRrsIfERmh4DX5BsNAOWFbUdVlMIsue3x6mpYj8/edit?usp=sharing"
+  },
+  {
+    "nome": "Frederico Ludwig Vidovix",
+    "nomeArtistico": "Frê Vidovix",
+    "minibio": "Artista visual licenciado pela Faculdade de Artes do Paraná e músico atuante na cena local independente.\n\nFoca seus esforços em entender a relação da arte com a tecnologia. Seus trabalhos trazem o aleatório e a abstração como recursos análogos à nossa forma de perceber e sentir o mundo, pois encontra nesses conceitos, maneiras de desafiar nossas convicções fundamentais, influindo em nossa percepção e entendimento perante a vida",
+    "foto": "https://drive.google.com/file/d/1PMqEfLGv1xFmeaW5zPZK79pgdI0_Sitp/view?usp=sharing",
+    "textoTitulo": "O Audiovisual e a Tecnologia como Poética: Uma Análise do Processo",
+    "textoResumo": "Memorial descritivo sobre a trajetória de descoberta, exploração e então, a realização e exposição de uma obra audiovisual, que se baseia no uso do Processing, em um festival internacional, o FILE (festival internacional de linguagem eletrônica).",
+    "textoUrl": "https://drive.google.com/file/d/173qRLcBTxLk98KRQZ1GFmelb-lvEm7zU/view?usp=sharing"
+  }
+]
