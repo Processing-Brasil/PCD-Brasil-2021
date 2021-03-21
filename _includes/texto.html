@@ -1,0 +1,32 @@
+{% for texto in site.data.textos %}
+
+  {% if texto.textoTipo == include.tipo %}
+
+    <div class="texto">
+      
+      <header class="texto-header">
+        <h4 class="texto-titulo"><span>{{ texto.textoTitulo }}</span></h4>
+        <h5 class="texto-autoria"> {{ texto.nomeArtistico }}</h5>
+      </header>
+
+      <div class="texto-descricao">  
+        <div class="texto-resumo">
+          {{ texto.textoResumo | markdownify }}
+        </div>
+
+        <div class="texto-minibio">
+          <strong>{{ texto.nomeArtistico }}: </strong>
+          {{ texto.minibio  }}
+        </div>
+      </div>
+
+      <div class="cta">
+        <a class="plus-button"></a> 
+        <a href="{{ texto.textoUrl }}" alt="{{ texto.textoTitulo }}" target="_blank" class="button button-small">Acessar texto</a>
+      </div>
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
