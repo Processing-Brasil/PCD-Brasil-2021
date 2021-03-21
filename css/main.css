@@ -69,6 +69,7 @@ h2 {
   font-family: var(--font-fraunces);
   text-transform: uppercase;
   font-size: calc(2.2rem * var(--font-scale));
+  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -226,8 +227,7 @@ section {
 
 .intro {
   background-color: var(--cor-vermelho);
-  background-size: cover;
-  min-height: 100vh;
+  
   padding: 8rem 1rem;
 }
 
