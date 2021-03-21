@@ -371,17 +371,17 @@ section {
   height: 100%;
 }
 
-/* SEÇÃO ARTIGOS */
+/* SEÇÃO textoS */
 
-.artigo {
+.texto {
   margin-bottom: 5rem;
 }
 
-.artigo-header {
+.texto-header {
   margin-bottom: 1rem;
 }
 
-.artigo-titulo {
+.texto-titulo {
   font-family: var(--font-fraunces);
   font-size: calc(1.7rem * var(--font-scale));
   text-transform: none;
@@ -391,7 +391,7 @@ section {
   padding-left: 0.4rem;
 }
 
-.artigo-titulo span {
+.texto-titulo span {
   background-color: var(--cor-azul);
   color: #e6e6d8;
   box-shadow: -0.2rem 0 0 0.2rem var(--cor-azul),
@@ -400,7 +400,7 @@ section {
   box-decoration-break: clone;
 }
 
-.artigo-autoria {
+.texto-autoria {
   padding: 0 0.7em;
   border-radius: 0.05em;
   background-color: #ff666c;
@@ -410,16 +410,16 @@ section {
   margin-bottom: 0.25rem;
 }
 
-.artigo-resumo,
-.artigo-minibio {
+.texto-resumo,
+.texto-minibio {
   margin-bottom: 1rem;
 }
 
-.artigo .cta {
+.texto .cta {
   text-align: right;
 }
 
-/* SEÇÃO GALERIA e ARTIGOS */ 
+/* SEÇÃO GALERIA */ 
 
 .galeria-chamada {
   min-height: 80vh;
