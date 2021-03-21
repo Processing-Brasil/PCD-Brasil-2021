@@ -3,28 +3,10 @@ layout: default
 title: Textos
 ---
 
-{% for texto in site.data.textos %}
+<h3 class="texto-tipo">Textos acadêmicos</h3>
 
-<div class="texto">
-  
-  <header class="texto-header">
-    <h4 class="texto-titulo"><span>{{ texto.textoTitulo }}</span></h4>
-    <h5 class="texto-autoria"> {{ texto.nomeArtistico }}</h5>
-  </header>
+{% include texto.html tipo='Texto Acadêmico' %}
 
-  <div class="texto-resumo">
-    {{ texto.textoResumo | markdownify }}
-  </div>
+<h3 class="texto-tipo">Textos técnicos</h3>
 
-  <div class="texto-minibio">
-    <strong>{{ texto.nomeArtistico }}: </strong>
-    {{ texto.minibio  }}
-  </div>
-
-  <div class="cta">
-    <a href="{{ texto.textoUrl }}" alt="{{ texto.textoTitulo }}" class="button button-small">Acessar texto</a>
-  </div>
-
-</div>
-
-{% endfor %}
+{% include texto.html tipo='Texto Técnico' %}

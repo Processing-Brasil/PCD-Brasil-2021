@@ -371,7 +371,11 @@ section {
   height: 100%;
 }
 
-/* SEÇÃO textoS */
+/* SEÇÃO TEXTOS */
+
+.texto-tipo {
+  margin-bottom: 3rem;
+}
 
 .texto {
   margin-bottom: 5rem;
@@ -416,7 +420,14 @@ section {
 }
 
 .texto .cta {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto-descricao {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 /* SEÇÃO GALERIA */ 
