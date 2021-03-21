@@ -1,0 +1,30 @@
+---
+layout: default
+title: Artigos
+---
+
+{% for artigo in site.data.artigos %}
+
+<div class="artigo">
+  
+  <header class="artigo-header">
+    <h4 class="artigo-titulo"> {{ artigo.textoTitulo }} </h4>
+    <h5 class="artigo-autor"> {{ artigo.nomeArtistico }}</h5>
+  </header>
+
+  <div class="artigo-resumo">
+    {{ artigo.textoResumo | markdownify }}
+  </div>
+
+  <div class="artigo-minibio">
+    <strong>{{ artigo.nomeArtistico }}: </strong>
+    {{ artigo.minibio  }}
+  </div>
+
+  <div class="cta">
+    <a href="{{ artigo.textoUrl }}" alt="{{ artigo.textoTitulo }}" class="button button-small">Acessar texto</a>
+  </div>
+
+</div>
+
+{% endfor %}
