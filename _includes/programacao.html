@@ -15,17 +15,23 @@
       </header>
 
       <div class="programacao-card-orientacao">
+        {% if include.dia == '8'%}
+        <div class="orientacao-item">
+          <h4>Data:</h4>
+          <p>{{ evento.data }}</p>
+        </div>
+        {% endif %}
         <div class="orientacao-item">
           <h4>Horário:</h4>
           <p>{{ evento.horario }}</p>
         </div>
         <div class="orientacao-item">
-          <h4>Indicação:</h4>
-          <p>{{ evento.publico }}</p>
-        </div>
-        <div class="orientacao-item">
           <h4>Duração:</h4>
           <p>{{ evento.duracao }}</p>
+        </div>
+        <div class="orientacao-item">
+          <h4>Indicação:</h4>
+          <p>{{ evento.publico }}</p>
         </div>
         
       </div>
