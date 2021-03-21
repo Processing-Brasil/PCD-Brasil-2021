@@ -58,8 +58,8 @@
         {% endif %}
       </div>
 
-      {% if evento.urlInscricao != true %}
-      
+      {% if evento.urlInscricao %}
+      {% else %}
         <div class="sem-inscricao">
           <p>Evento sem necessidade de inscrição, assista no <a href="https://www.youtube.com/channel/UCOiwQ_BVKNn6ftNaDqfPraw">YouTube</a>.</p>
         </div>
