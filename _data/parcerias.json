@@ -50,6 +50,11 @@
     "site": "#"
   },
   {
+    "nome": "Nano",
+    "logo": "Nano.png",
+    "site": "#"
+  },
+  {
     "nome": "PUC Rio",
     "logo": "PUCRRIO.png",
     "site": "#"
@@ -133,6 +138,11 @@
     "nome": "UNILA",
     "logo": "UNILA.png",
     "site": "#"
-  }
+  },
+  {
+    "nome": "VisgrafLab",
+    "logo": "VisgrafLab.png",
+    "site": "#"
+  },
   
 ]

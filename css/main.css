@@ -447,8 +447,9 @@ section {
 .parcerias {
   background-color: white;
 }
+
 .lista-logos {
-  margin: 0;
+  margin: 3rem 0;
   padding: 0;
   list-style: none;
   display: flex;
