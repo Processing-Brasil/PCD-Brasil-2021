@@ -68,5 +68,15 @@
     "textoTitulo": "Diferenças na sintaxe que você está acostumado a usar em Javascript para programar no Observable",
     "textoResumo": "Artico técnico destrinchando as peculiaridades da programação javascript dentro da plataforma Observable, e, em especial, as pequenas mudanças sintáticas que precisam ser observadas neste contexto.",
     "textoUrl": "https://observablehq.com/@processingbrasil/diferencas-na-sintaxe-que-voce-esta-acostumado-a-usar-em-jav?collection=@processingbrasil/introducoes"
+  },
+  {
+    "nome": "Guilherme Ranoya",
+    "nomeArtistico": "Guilherme Ranoya",
+    "minibio": "Professor e pesquisador do departamento de design (dDesign) da Universidade Federal de Pernambuco (UFPE). Lider do grupo de pesquisa integrada em design e computação (D+C), e membro dos grupos de pesquisa em experimentação e inovação em arte, tecnologia e criatividade (MusTIC), do grupo de pesquisa em design da informação (DI/PPGDesign) e do consórcio de pesquisa realmente aplicada em inteligência artificial (PRAIA).",
+    "foto": "https://www.ranoya.com/Assets/pessoas/tRanoya.png\nhttps://www.dropbox.com/s/lsw1izfqd92rkn5/Claudio%202020.jpg?dl=1",
+    "textoTipo": "Texto Técnico",
+    "textoTitulo": "O que se faz no Observable, não fica só no Observable",
+    "textoResumo": "Artigo técnico explicando como aproveitar o Observable como uma plataforma de desenvolvimento web e aproveitar aquilo que foi criado dentro dele em outros sites de maneira mais integrada.",
+    "textoUrl": "https://observablehq.com/@processingbrasil/embed"
   }
 ]
