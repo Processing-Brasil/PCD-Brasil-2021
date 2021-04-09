@@ -227,8 +227,8 @@ section {
 
 .intro {
   background-color: var(--cor-vermelho);
-  background-position: center;
-  padding: 8rem 1rem;
+  background-position: center 60px;
+  padding: 60px 1rem 8rem 1rem;
 }
 
 .intro-header {
