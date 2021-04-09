@@ -16,7 +16,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NHU1bmNwOGI0NDRkbDMyMDB1MzRudnRidTcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://www.youtube.com/watch?v=NnoT_LoNF1s",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "1",
@@ -35,7 +35,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MzZ0bm03N25qdGsyaWN0bnJub3U5ZjdsaHEgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/BTBb2Q2nWaSWRHBZ6",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "1",
@@ -54,7 +54,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MDZpZnMxb3N0djQ4OWNpanFqMzBvdDZhcmkgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/kxVSAqZV3VA",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "1",
@@ -73,7 +73,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MDZjbWcwY3Vyc2licnVvNGJibXUxNGNzbW4gcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/ZyXbWyKSZyzBofZ26",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "1",
@@ -92,7 +92,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NGhrN2MycHAwM2Q4OW82aWdoMTdmMW5qMzcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/ol8-ugeSyxU",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "1",
@@ -111,7 +111,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mmh1OTBhMGI0YzIydXVrdWM2aGgxcmJyZmcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/VKNmL2qAKCU",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "1",
@@ -130,7 +130,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=N2pvY205Zm9yYTduNnEwaWhxYjQ1azdrcnIgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/NUHi6Txg8KpMR17p7",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "1",
@@ -149,7 +149,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MmQxOXRoODJwNHVqYTJiOGRmM2htNGEyanIgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/IpBAZCL-huo",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "2",
@@ -168,7 +168,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MmdjYTJzcmU2YzQ0cTFqbDI0ZGZjbW0wb2Qgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/FrPQjXg43yjkdUeZ7",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "3",
@@ -187,7 +187,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MHU0dDhibDFvdHV2cmtiOGVrM3MxZzFqOTMgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/gcUNE7gEtm9PNpum8",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "4",
@@ -206,7 +206,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MXEyN2ZraGNnbGlucGxkamp0dWVlNDVtYzcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/a8JJBNfQfLbBAsB37",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "5",
@@ -225,7 +225,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mms3ZW9hNTY2Z2E0MWVpNDl0MXNiaTNhcW4gcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/NnkhaktT1cY2LvmN9",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "6",
@@ -244,7 +244,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NThzMTNob3ZqaXE5b2lsajZwajhzdG84Z2kgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "6",
@@ -263,7 +263,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=N3RpN2Ewbm1pMTZmN3ZudDQ0azkxN2RhMTUgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/0x6jhSFhYrw",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "6",
@@ -282,7 +282,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MXVnMHBrbWw2aHM1ZTU0cTMxNTNidXNzNDggcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/xXmc0VGGR8M",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "6",
@@ -301,7 +301,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MjdnZDVnMnVsYWtoaDVqNWtiZHNlMGM2NTEgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/O-gr6j4lRnI",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "6",
@@ -320,7 +320,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MDI4bG9vNG85ZHB0NWVnOXQ0NHZjcGdkOGcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/UHw1N9ukMyzFDZyR6",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -339,7 +339,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NXFtbWRmbXE5Z3RnY2tyamU3c2wxc3RybGkgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/zRuNpKTDDhb7GEkN9",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -358,7 +358,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=N2x1azJzbnVuM2Z1azN0aTRqYzlndWdwaDMgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/7Ay3EAS3Vfk",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -377,7 +377,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NzVva3Y1YWEwOTVrc2hidDBkZnI0dW8zMjUgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/qsW6NyZgMREWksCZA",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -396,7 +396,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=N2RzMDMzZmMzdDZlMWp0NnQ5MHMxN2VjMWggcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/nqcAqEr8gqA",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -415,7 +415,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NWQyZm91Ympua3V0NW84bWhjaThpcmxzbjcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/k4udb71KbhQuxJxh6",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -434,7 +434,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NGx1Z2MxdGQ2Z2JwMjFqMGJibWFyM2lxN2ogcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": "https://youtu.be/6qP0SobFyNw",
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -453,7 +453,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MzdjaDNwbnFqbG9vNGN0bHJ0cTltM2k2cDMgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/c56AukgVUmyJHtK47",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -472,7 +472,7 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=M3NiajhsdDFjNHV1azk5dGZrZWc0Y2VxdTcgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": "https://forms.gle/LSMSg49Sxt95Kmgu5",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
     "diaEvento": "7",
@@ -491,10 +491,10 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NGs5a2MzNm80YTJmamFkMTBudDVzaHMzc3Qgcm85a2JzczhrZGE4YTRhbHBnZXBhNWhiM3NAZw&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com",
     "urlInscricao": null,
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   },
   {
-    "diaEvento": "1",
+    "diaEvento": "8",
     "data": "todos os dias, de 11 a 17/04",
     "horario": "19:00",
     "duracao": "7 encontros de 2 horas",
@@ -510,6 +510,6 @@
     "urlCalendar": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NnBsNmpmb2VwdmFxZ2VjdDY4OTU2bmwyZ3BfMjAyMTA0MTFUMjIwMDAwWiBybzlrYnNzOGtkYThhNGFscGdlcGE1aGIzc0Bn&tmsrc=ro9kbss8kda8a4alpgepa5hb3s%40group.calendar.google.com&scp=ALL",
     "urlInscricao": "https://forms.gle/NZ2K1hRHvvxEUfPn9",
     "urlTransmissao": null,
-    "diaAtivo": "sim"
+    "eventoAtivo": "sim"
   }
 ]
