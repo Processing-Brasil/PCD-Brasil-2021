@@ -71,6 +71,7 @@ h2 {
   font-size: calc(2rem * var(--font-scale));
   margin-top: 4rem;
   margin-bottom: 2rem;
+  line-height: 1em;
 }
 
 h3 {
@@ -86,6 +87,7 @@ h3 {
   margin-bottom: 1rem;
   text-align: center;
   margin-top: 3rem;
+  line-height: 1em;
 }
 
 
