@@ -4,10 +4,15 @@
 
 	// NAVEGAÇÃO
 
-	var container, button, menu;
+	var container, button, menu, overlay;
 
 	container = document.getElementById( 'site-navigation' );
 	if ( ! container ) {
+		return;
+	}
+
+	overlay = document.getElementsByClassName( 'overlay' )[0];
+	if ( ! overlay ) {
 		return;
 	}
 
@@ -28,13 +33,30 @@
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
 			container.className = container.className.replace( ' toggled', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
+			button.innerText = "Menu";
 			menu.setAttribute( 'aria-expanded', 'false' );
 		} else {
 			container.className += ' toggled';
 			button.setAttribute( 'aria-expanded', 'true' );
+			button.innerText = "Fechar";
 			menu.setAttribute( 'aria-expanded', 'true' );
 		}
 	};
+
+	overlay.onclick = function() {
+		console.log("click container")
+		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
+			container.className = container.className.replace( ' toggled', '' );
+			button.setAttribute( 'aria-expanded', 'false' );
+			button.innerText = "Menu";
+			menu.setAttribute( 'aria-expanded', 'false' );
+		} else {
+			container.className += ' toggled';
+			button.setAttribute( 'aria-expanded', 'true' );
+			button.innerText = "Fechar";
+			menu.setAttribute( 'aria-expanded', 'true' );
+		}
+	}
 
 	// ACCORDEON
 
