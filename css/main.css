@@ -345,7 +345,7 @@ section {
 .orientacao-item h4 {
   width: 12ch;
   padding-right: 0.5rem;
-  
+  margin-top: 0;
 }
 
 .programacao-card .cta {
