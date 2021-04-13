@@ -30,23 +30,40 @@ title: Galeria Digital
 
 <iframe style="width:100%; height:calc(100vh - 3rem); display: block" src="https://esperanc.github.io/GaleriaPCD/" frameborder="0"></iframe>
 
+<button id="lista-botao">Lista de Obras</button>
 
-
+<div id="lista-obras" class="lista-obras-wrapper ">
 <div class="lista-obras-container">
+  <!-- 
   <div class="galeria-logo">
     <img src="{{site.baseurl}}/assets/Galeria-Logo.png" alt="logo">
+  </div> 
+  -->
+  <div class="lista-obra-top">
+    <button id="lista-fechar">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="16" fill="#004AA3"/>
+        <rect x="8" y="9" width="2" height="20" transform="rotate(-45 8 9)" fill="#FF666C"/>
+        <rect x="9" y="24" width="2" height="20" transform="rotate(-135 9 24)" fill="#FF666C"/>
+      </svg>   
+    </button>
+  </div>
+  <div class="galeria-titulo">
+    <span>Galeria Virtual</span>
+    <span>Processing Community Day</span>
+    <span>Brasil</span>
   </div>
   <div class="galeria-data">
     Abertura dia 11 de Abril
   </div>
-  <ul>
+  <ul class="lista-obras">
     {% for artista in site.data.galeria %}
-    <li>
-      <div>{{artista.author}}</div>
-      <div>{{artista.title}}</div>
-      <div><a href="{{artista.link}}">Ver</a></div>
+    <li class="lista-obra">
+      <div class="obra-autoria">{{artista.author}}</div>
+      <div class="obra-titulo">{{artista.title}}</div>
+      <!-- <div><a href="{{artista.link}}">Ver</a></div> -->
     </li>
     {% endfor %} 
   </ul>
 </div> 
-
+</div>

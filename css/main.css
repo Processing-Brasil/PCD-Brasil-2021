@@ -456,6 +456,109 @@ section {
   text-align: center;
 }
 
+/* LISTA DE OBRAS */
+
+.lista-obras-wrapper {
+  display: none;
+}
+
+#lista-botao {
+  position: absolute;
+  right: 1.5rem;
+  top: 5rem;
+  text-transform: uppercase;
+  font-family: var(--font-tomorrow);
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--cor-vermelho);
+  border: 1px solid var(--cor-azul);
+  color: var(--cor-cinza);
+}
+
+#lista-fechar {
+  border: 0;
+  background-color: transparent;
+  display: inline;
+}
+
+.lista-obra-top {
+  text-align: right;
+}
+
+.lista-obras-wrapper.aberto {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.lista-obras-container {
+  padding: 1.5rem;
+  width: 37.5rem;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor-vermelho);
+}
+
+.galeria-logo img {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.galeria-titulo {
+  text-transform: uppercase;
+  font-family: var(--font-tomorrow);
+  font-size: calc(1.8rem * var(--font-scale));
+  line-height: 1em;
+  text-align: center;
+}
+
+.galeria-data {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-tomorrow);
+  font-size: calc(1.2rem * var(--font-scale));
+  color: var(--cor-cinza);
+  margin: 1rem;
+}
+
+.lista-obras {
+  overflow-y: scroll;
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0 1rem 0 0;
+  line-height: 1em;
+}
+
+.lista-obra {
+  display: flex;
+  border-top: 2px solid var(--cor-azul);
+  padding: 0.5rem 0;
+  color: var(--cor-cinza);
+}
+
+.lista-obra:last-child {
+  border-bottom: 2px solid var(--cor-azul);
+}
+
+.lista-obra div {
+  width: calc(100% / 2);
+}
+
+.lista-obra .obra-autoria {
+  text-transform: uppercase;
+}
+
 /* SEÇÃO PARCERIAS */
 
 .parcerias {
