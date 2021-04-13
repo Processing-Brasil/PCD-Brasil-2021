@@ -58,6 +58,31 @@
 		}
 	}
 
+	let lista_obras = document.getElementById("lista-obras");
+	let botao_lista = document.getElementById("lista-botao");
+	let botao_fechar = document.getElementById("lista-fechar");
+
+	botao_lista.onclick = function() {
+		if ( -1 !== lista_obras.className.indexOf( 'aberto' ) ) {
+			lista_obras.className = lista_obras.className.replace( ' aberto', '' );
+			button.setAttribute( 'aria-expanded', 'false' );
+		} else {
+			lista_obras.className += ' aberto';
+			lista_obras.setAttribute( 'aria-expanded', 'true' );
+		}
+	};
+
+	botao_fechar.onclick = function() {
+		console.log("click container")
+		if ( -1 !== lista_obras.className.indexOf( 'aberto' ) ) {
+				lista_obras.className = lista_obras.className.replace( ' aberto', '' );
+			} else {
+				lista_obras.className += ' aberto';
+			}
+	}
+
+	
+
 	// ACCORDEON
 
 	var acc = document.getElementsByClassName("plus-button");

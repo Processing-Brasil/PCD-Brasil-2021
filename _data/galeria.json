@@ -1,0 +1,272 @@
+[
+  {
+    "link": "https://youtu.be/__h-yCxRbts",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/02_img.jpg",
+    "title": "man += machine",
+    "author": "Alexandre Andrada",
+    "Email": "contato@aand.me",
+    "Descrição": "Minha intenção com meu projeto man += machine foi de criar uma reflexão e um mecanismo de auto-exploração sobre como dados são poderosos e ao mesmo tempo, um recurso invisível para a maioria de nós que está constantemente sendo usado para objetivos de terceiros com o intuito de prever nossos comportamentos e influenciar nossos processos inconscientes. Ao coletar meus próprios dados usando este mesmo mecanismo que é usado contra a nossa vontade diáriamente, eu consegui mapear com clareza a maneira com que eu estava funcionando e me comportando, quais tipos de conflitos internos eu estava lidando e como eu poderia me orientar melhor em relação a conseguir uma maior autonomia e direcionamento em minha vida.\n\nO projeto acabou se tornando uma fotografia de um momento específico de minha história aonde não só eu questionava minhas próprias ações mas também me indagava qual era o papel da cultura e do cenário tecnológico atual em modelar e influenciar meus processos psicológicos.\n\nMeus dados pessoais durante a jornada do projeto foram coletados através de dispositivos como telefone celular, fitness bands, máquinas fotográficas, gravadores de som e também impressões subjetivas que se manifestaram em uma composição baseada em uma visualização de dados alimentada por registros numéricos, sonoros e visuais.\n\nEste projeto já foi exposto na Galeria Pragovka em Praga (República Tcheca), Galeria T56 em Eindhoven (Holanda) e acabou de ser selecionado para Processing Community Porto (Portugal), aonde será exposto neste mês de Fevereiro de 2021.",
+    "Mini-bio": "Alexandre Andrada é um Designer e Artista Computacional do Rio de Janeiro, que atualmente está passando pelo processo de assimilação de atuais transformações tecnológicas, culturais e sociais ao seu redor. Para lidar com esta tarefa, ele cria suas próprias ferramentas, processos e métodos, que costumam incluir práticas como programação criativa, explorações sonoras, análise de dados e manipulações digitais. Seus trabalhos já foram expostos e publicados em países diversos como República Tcheca, Brasil, Holanda, Reino Unido, Portugal, Alemanha, Austráia e Japão."
+  },
+  {
+    "link": "https://abav.lugaralgum.com/selected-work/recursive-grid/",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/03_img.png",
+    "title": "grade recursiva 2021_01_21",
+    "author": "Alexandre B A Villares",
+    "Email": "abav@lugaralgum.com",
+    "Descrição": "Este trabalho se iniciou com a exploração de uma série de grades recursivas no meu projeto de um sketch por dia (sketch-a-day). O Tema/strutura da grade recursiva tem sido uma ideia favorita minha desde que a aprendi com Takawo Shunsuke (https://twitter.com/takawo), programador criativo do Japão, em 2019.\n\nGostaria de dedicar esta obra à memória do meu pai, Alberto Siciliano Villares que faleceu recentemente, em dezembro de 2020, quando comecei a série de estudos que culminaram neste resultado.",
+    "Mini-bio": "Professor, artista visual e consultor em projetos de design e novas mídias. Pesquisa práticas artísticas que se valem de meios computacionais e o ensino de programação em contextos visuais. Graduado em arquitetura e urbanismo pela FAU-USP (2000) e mestre pela FEC-Unicamp (2019). Apoiador da Processing Foundation e co-organizador da Noite de Processing em São Paulo. Ministra cursos na graduação e na pós-graduação de diversas instituições, desenvolve também cursos e oficinas independentes ou como educador de tecnologias e artes no Sesc-SP."
+  },
+  {
+    "link": "http://www.andreburnier.com/marcacos",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/06_img.png",
+    "title": "Marcacos",
+    "author": "André Burnier",
+    "Email": "afburnier@gmail.com",
+    "Descrição": "O programa Marcacos busca expressar a estética pandemista enquanto literatura. Todos os poemas de Tiago Barradas foram retalhados criando um mar de cacos (cerca de 2 mil fragmentos), os quais se revelam aleatoriamente. A pandemia, em seu lado mais agudo, quebrou nossas poéticas complexas de vida (poemas), nos deixando natureza humana em um mar de significados simples (letras, palavras, expressões, frases) que se revelam com o passar dos dias (cliques, toques): Marcacos. Clique e segure.",
+    "Mini-bio": "André Burnier atua como designer gráfico, programador criativo e professor. Em 2016 se formou Mestre em Design Gráfico pela AKV | St. Joost, na Holanda, e dês de então desenvolve uma pesquisa sobre a intersecção entre design e programação. Durante essa pesquisa prática, Burnier explora o design generativo com desenvolvimento de ferramentas para fazer design – designer bots."
+  },
+  {
+    "link": "http://www.andreburnier.com/designerBots/",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/07_img.png",
+    "title": "Designer Bots",
+    "author": "André Burnier",
+    "Email": "afburnier@gmail.com",
+    "Descrição": "Essa exposição é o resultado da oficina Programas Designers, realizada em Agosto de 2020, por André Burnier, em parceria com o Espaço.cc. Do sketch ao resultado final, foram 5 semanas de trabalho, com encontros virtuais semanais. Durante a oficina cada participante idealizou e desenvolveu seu próprio programa designer.",
+    "Mini-bio": "André Burnier atua como designer gráfico, programador criativo e professor. Em 2016 se formou Mestre em Design Gráfico pela AKV | St. Joost, na Holanda, e dês de então desenvolve uma pesquisa sobre a intersecção entre design e programação. Durante essa pesquisa prática, Burnier explora o design generativo com desenvolvimento de ferramentas para fazer design – designer bots."
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=sxyeKoFma_Q&ab_channel=ProcessingCommunityDayBrasil",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/09_img.jpg",
+    "title": "Crochê Digital",
+    "author": "André Silva",
+    "Email": "andrearqurb@outlook.com",
+    "Descrição": "Materialização de padrões de crochê gerados por um algoritmo generativo escrito no processing.",
+    "Mini-bio": "Mestrado na linha de pesquisa Poéticas Tecnológicas do Programa de Pós-Graduação em Artes da Escola de Belas Artes na UFMG, graduação em Arquitetura e Urbanismo  com período sanduíche na SCAD, Estados Unidos. Possui interesse em metodologias de projeto, projeto de produto, projeto assistido por computador, técnicas tradicionais e tecnologia digital direcionada ao desenvolvimento de arquitetura, produto e arte."
+  },
+  {
+    "link": "https://vimeo.com/532361970",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/10_img.jpg",
+    "title": "Black Book October, Generative Drawings",
+    "author": "Miguel Ogoshi",
+    "Email": "antonio.jds.coelho@gmail.com",
+    "Descrição": "Referências históricas mostram que os seres humanos sempre tentaram representar a natureza humana por meio de linguagem visual. Essa demanda tem levado, ultimamente, ao desenvolvimento de técnicas de apresentação digital em ambiente tecnológico, por meio de fotografia e vídeo. Neste trabalho “Black Book October, Generative Drawings” é possível observar a expressividade da evolução técnica dos algoritmos de desenho com linhas, com o auxílio de programação criativa com o software Processing. É uma transição para o mundo virtual e o auxílio da computação gráfica como aliada na manipulação e rasterização de imagens em movimento. Mas além dessa representação da realidade, está subjacente também a representação visual dos sentimentos e expressões humanas, com a qual só há uma maneira de vê-los, sentindo, é um campo visual mais amplo, expressão poética, e mais subjetiva, variável até para cada pessoa.",
+    "Mini-bio": "New Media Artist // Researcher // Lecturer"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=kZrkrIXOLno",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/15_img.jpg",
+    "title": "Preamar",
+    "author": "Barbara Castro",
+    "Email": "barbara@ambos.art.br",
+    "Descrição": "A instalação “Preamar” consiste na sobreposição de duas projeções de uma maré de dados do corpo. Para realizar a instalação, coletei dados de minha pressão arterial de minha mãe por 24h. A palavra “Preamar” em português soa como Pré-amar e significa maré alta. A relação mãe e filha é ponte para pensar o instinto de sobrevivência através da reprodução e proteção da prole. Ao alternar entre movimentos coreografados e opostos, as projeções vislumbram o processo de (in) dependência estabelecido entre mãe e filha e a dinamicidade das alterações fluidas na relação sangue-afeto.\n\nOs dados do coração são utilizados para criar uma visualização que remete a um mar de sangue. Para gerar a visualização, um algoritmo mapeia os valores de sístole e diástole contidos em uma tabela na altura de uma onda vermelha oscilante. Ao mesmo tempo, estes dados também são utilizados para determinar o efeito de reverberação da frase “Amar é a maré” que pela semelhança fonética na língua portuguesa, ao se repetir também soa como “A maré, amar é.”  Desta forma, a instalação Preamar relaciona a natureza instável das emoções e sua manifestação no corpo através da metáfora da maré por ser manifestação de movimento incessante, fluido, dinâmico. A instalação aborda o corpo através do mar, e o mar que nos habita. A maré também se relaciona especialmente ao corpo feminino e sua influência da lua relacionada à periodicidade do ciclo menstrual, o que aproxima a existência da mulher com o sangue. Além de relacionar as emoções, o coração e o sangue, procurando não separar mente e corpo. Preamar parte da compreensão da natureza fluida e viva da nossa existência à semelhança do organismo Terra. O batimento cardíaco e a circulação parecem ser esses motores poéticos para a relação com uma visão ampla do instinto e a relação com o planeta.\n\nAo relacionar sangue e afeto, Preamar procura dar visibilidade a um estranhamento da percepção do corpo. A possibilidade de compreender certas emoções através de uma alteração na composição química do corpo e vice-versa às vezes se torna tão inconcebível quanto a explicação científica de certos fenômenos naturais, como a influência da lua no mar. Tais fenômenos talvez devessem permanecer inexplicáveis para se manter o mistério da experiência vivida.",
+    "Mini-bio": "Barbara Castro é artista-programadora, designer, pesquisadora e professora. Sua atuação teórico-prática se concentra nos campos da arte computacional com ênfase em visualização artística de dados. É doutora em Artes Visuais pela EBA/UFRJ e professora da PUC-Rio onde leciona em disciplinas sobre projetos socioambientais, culturas regenerativas e sobre o desenvolvimento sustentável, crítico e criativo de novas tecnologias. É sócia fundadora e diretora de criação do estúdio Ambos&& que realiza instalações interativas, exposições, curadorias e consultoria criativa para museus como Museu do Amanhã, Oi Futuro, Museu de Arte do Rio, Centro Cultural Banco do Brasil e para instituições como BNDES, SESC e SENAI. Entre seus trabalhos recentes se destacam a co-idealização da exposição e do livro Existência Numérica no Oi Futuro. Em 2019, Barbara foi co-curadora da exposição Data Corpus junto com equipe da Casa Firjan."
+  },
+  {
+    "link": "https://youtu.be/QYqpKwwTkdM",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/18_img.png",
+    "title": "Virus Viral",
+    "author": "Camila Costa",
+    "Email": "camilapcosta@hotmail.com",
+    "Descrição": "Virus Viral (Camila Costa) - poesia visual concebida pelo Processing em Março de 2020",
+    "Mini-bio": "Camila Costa é cantora, compositora e violonista, nascida no Rio de Janeiro. Com mais de 25 anos de carreira musical nacional e internacional, tem 2 discos autorais:  «Mangas e Bananas para o meu amor» (2017) e Reflexo (2005). Em 2019 começou a estudar programação e vem desenvolvendo trabalhos que integram musica, arte e tecnologia. Em 2020, lança a canção \"Rodadá\" em parceria com Cid Campos, que teve arte grafica do poeta Augusto de Campos e de Julie Bozon de Campos."
+  },
+  {
+    "link": "https://youtu.be/Q2AMEfW1xPU",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/19_img.png",
+    "title": "Yemanjá",
+    "author": "Camila Costa",
+    "Email": "camilapcosta@hotmail.com",
+    "Descrição": "Yemanjá (Camila Costa) - Performance Camila Costa  (Guitarra, pedais, voz e manipulação de imagem)",
+    "Mini-bio": "Camila Costa é cantora, compositora e violonista, nascida no Rio de Janeiro. Com mais de 25 anos de carreira musical nacional e internacional, tem 2 discos autorais:  «Mangas e Bananas para o meu amor» (2017) e Reflexo (2005). Em 2019 começou a estudar programação e vem desenvolvendo trabalhos que integram musica, arte e tecnologia. Em 2020, lança a canção \"Rodadá\" em parceria com Cid Campos, que teve arte grafica do poeta Augusto de Campos e de Julie Bozon de Campos."
+  },
+  {
+    "link": "https://openprocessing.org/sketch/1116518",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/22_img.png",
+    "title": "Beautiful Bug",
+    "author": "Vamoss",
+    "Email": "vamoss@vamoss.com.br",
+    "Descrição": "Arte generativa utilizando a técnica caminhante errante. O termo Bug faz menção ao bug da ferramenta experimental Pyp5js que contribuiu com um resultado visual interessante.",
+    "Mini-bio": "Vamoss é programador criativo e Diretor de Tecnologia na SuperUber desde 2011. Ele integra conteúdo, hardware, software, design e arquitetura para desenvolver projetos únicos. Graduado em Design pela ESPM-Rio, trabalha com mídia interativa desde 2004, desenvolvendo projetos para espaços físicos, celular e web. Ele está fazendo o Mestrado em Economia Criativa na ESPM-Rio, onde se engajou com a comunidade de programação criativa no Brasil para criar o EncontrosDigitais.com.br, uma plataforma colaborativa para compartilhar conhecimento entre programadores criativos e a sociedade."
+  },
+  {
+    "link": "https://crisduarte.github.io/pintando-com-a-voz/",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/24_img.jpg",
+    "title": "PINTANDO COM A VOZ",
+    "author": "Cristiane Duarte e Rolf Simões",
+    "Email": "crisduartesimoes@gmail.com",
+    "Descrição": "Pintando com a Voz é uma instalação de arte interativa que produz pinturas de paisagens conduzidas tanto pela voz quanto por outros sons produzidos pelo interator. A instalação traz à tona as relações muitas vezes não percebidas entre o corpo e a obra de arte visual. A obra pode ser acessada em https://crisduarte.github.io/pintando-com-a-voz.",
+    "Mini-bio": "Possui graduação em Artes Visuais pela Universidade Regional do Cariri (2019), fez intercambio na UNESP Barra Funda SP(2017), e graduação em História pela Universidade Regional do Cariri (2006). Atualmente é celetista da Prefeitura Municipal da Estância Climática de Cunha. Tem experiência na área de Artes, com ênfase em Artes visuais, atuando principalmente nos seguintes temas: fórum, arte interativa e educação pública."
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=nnI60G3KZP4&ab_channel=FelipeFaillaceSalazar",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/25_img.jpg",
+    "title": "INTERREGNO",
+    "author": "Felipe Salazar",
+    "Email": "felipefsalazar@gmail.com",
+    "Descrição": "Instalação interativa que busca criar um ambiente imersivo onde os sentidos são provocados pela tecnologia digital, explorando a barreira entre o virtual e o real. Visando a expansão dos sentidos através da tecnologia, esta instalação busca enxergar e revelar novas percepções da fina camada entre o “natural e o digital”, entre o nosso corpo e o mundo virtual.",
+    "Mini-bio": "Designer digital envolvido com a estratégia e a implementação de soluções criativas e tecnológicas a partir da colaboração e do design thinking."
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=SCL0VQck4oI&ab_channel=ProcessingCommunityDayBrasil",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/27_img.png",
+    "title": "Equilíbrio Elétrico",
+    "author": "Frê Vidovix",
+    "Email": "f.vidovix@gmail.com",
+    "Descrição": "Equilíbrio Elétrico\" é uma obra que se apresenta em uma sequencia de .Gifs, criados e renderizados inteiramente pelo Processing. Criados ainda no período de Faculdade, em 2018, já demonstrando o interesse pelo 3D e pela animação, assim como o começo de uma estética particular.",
+    "Mini-bio": "Frê Vidovix, com 23 anos, é um artista visual licenciado pela Faculdade de Artes do Paraná e músico atuante na cena local independente.\n\nFoca seus esforços em entender a relação da arte com a tecnologia. Seus trabalhos trazem o aleatório e a abstração como recursos análogos à nossa forma de perceber e sentir o mundo, pois encontra nesses conceitos, maneiras de desafiar nossas convicções fundamentais, influindo em nossa percepção e entendimento perante a vida."
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=cfKGQbCiJ8A&ab_channel=ProcessingCommunityDayBrasil",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/28_img.png",
+    "title": "Princípio da Incerteza",
+    "author": "Frê Vidovix",
+    "Email": "f.vidovix@gmail.com",
+    "Descrição": "Princípio da Incerteza\" é uma animação digital que se apropria da busca humana por padrões e pontos referenciais. Estimulando a percepção do espectador, causa sensações e sentimentos distintos, os quais desafiam nossos entendimentos primordiais e acabam por nos remeter à conceito inerentes a toda existência.\nA obra começa sua construção em estudos matemáticos e geométricos dentro da programação, pra posteriormente se converter à objetos digitais, tendo sua pós produção em software 3D, para criar o produto final.",
+    "Mini-bio": "Frê Vidovix, com 23 anos, é um artista visual licenciado pela Faculdade de Artes do Paraná e músico atuante na cena local independente.\n\nFoca seus esforços em entender a relação da arte com a tecnologia. Seus trabalhos trazem o aleatório e a abstração como recursos análogos à nossa forma de perceber e sentir o mundo, pois encontra nesses conceitos, maneiras de desafiar nossas convicções fundamentais, influindo em nossa percepção e entendimento perante a vida."
+  },
+  {
+    "link": "https://frames.doublepi.me/",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/30_img.jpg",
+    "title": "F R A M E S",
+    "author": "Double PI",
+    "Email": "giuliandrimba@gmail.com",
+    "Descrição": "Um infográfico interativo apresentando uma curadoria de 150 filmes divididos em 6 categorias",
+    "Mini-bio": "Programador visual"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=tgRt91-ZeB0&ab_channel=ProcessingCommunityDayBrasil",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/34_img.jpg",
+    "title": "01 — 10",
+    "author": "Guilherme Vieira",
+    "Email": "guilhermesv@gmail.com",
+    "Descrição": "01 — 10 é um exercício pessoal de utilizar a programação criativa como campo de experimentação a partir de um exercício auto-proposto de visualizar uma contagem de 1 a 10 de diferentes maneiras utilizando Processing. As visualizações foram compiladas em uma publicação impressa diagramada utilizando HTML e CSS.",
+    "Mini-bio": "Guilherme Vieira, Técnico em Artes Gráficas e Bacharel em Design Gráfico com Ênfase em Tipografia, é designer e artista gráfico e computacional. Sócio do estúdio Daó, cria junto com Giovani Castelucci e Giulia Fagundes identidades visuais, projetos editoriais e ilustrações. Com seus irmãos fundou a Norte, onde cria publicações e arte impressa. Em seu trabalho pessoal explora as possibilidades estéticas da intersecção das ferramentas digitais e analógicas."
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=ESYatg3MwQc&ab_channel=ProcessingCommunityDayBrasil",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/35_img.png",
+    "title": "Recortes",
+    "author": "Guilherme Vieira",
+    "Email": "guilhermesv@gmail.com",
+    "Descrição": "Recortes é uma publicação impressa criada com colagens generativas. O código produz duas variantes de arte que são combinadas para criar as imagens: grades de elementos lineares e recortes de fotos. \n\nAs grades podem ser formadas por linhas, círculos, quadrados e parábolas e os recortes podem ter formas relativamente circulares e retangulares.\n\nPara criar a publicação final as composições foram impressas, recortadas em formatos variados e inseridas em um saco plástico. Cada publicação possui uma combinação única de recortes.",
+    "Mini-bio": "Guilherme Vieira, Técnico em Artes Gráficas e Bacharel em Design Gráfico com Ênfase em Tipografia, é designer e artista gráfico e computacional. Sócio do estúdio Daó, cria junto com Giovani Castelucci e Giulia Fagundes identidades visuais, projetos editoriais e ilustrações. Com seus irmãos fundou a Norte, onde cria publicações e arte impressa. Em seu trabalho pessoal explora as possibilidades estéticas da intersecção das ferramentas digitais e analógicas."
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=Wj0Q5VXdN18&ab_channel=ProcessingCommunityDayBrasil",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/37_img.jpg",
+    "title": "CVKlee - estudo de caso",
+    "author": "Ivan Eiji Simurra",
+    "Email": "ieysimurra@gmail.com",
+    "Descrição": "Primeiros estudos utilizando a biblioteca openCV em Processing. A ideia é explorar os contornos e as cores de uma figura em uma linha temporal. Seus contrastes, seus limites de identificação, distorções (blur) dentre outros.",
+    "Mini-bio": "Compositor e pesquisador, realiza manipulações eletrônicas em Música Pop (DJ). Doutor pelo Instituto de Artes - IA/UNICAMP com ênfase em Processos Criativos, sob a orientação de Jônatas Manzolli, com o financiamento da FAPESP e CAPES/FAPESP. Mestre em Processos Criativos no Instituto de Artes - IA/UNICAMP, sob orientação de Silvio Ferraz, com o financiamento CAPES/FAPESP e Bacharel em Composição Musical respectivamente. Professor de Harmonia, Teoria, Estruturação e Composição Musical, desenvolve projetos relacionados com composição de música instrumental, ciência, tecnologia e análise musical com auxílio do computador. Participou de diversos festivais, masterclasses e workshops. Desenvolveu sua pesquisa de pós-doutoramento no Departamento de Computação do Instituto de Matemática e Estatística - IME/USP sob a supervisão do Prof. Dr. Marcelo Gomes de Queiroz. Desenvolve pesquisa de pós-doutorado no Centro de Engenharia, Modelagem e Ciências Sociais Aplicadas - CECS em parceria com o Centro de Matemática, Computação e Cognição - CMCC, ambos da UFABC, sob a a supervisão dos Profs. Drs. João Ricardo Sato e Patrícia Vanzella. Obteve prêmios por suas composições durante a Bienal de Música Brasileira Contemporânea - FUNARTE e no III Concurso Internacional de Composição Musical, em Tomsk/Rússia. Ademais, suas obras são executadas no Brasil, Argentina, Chile, Estados Unidos, Israel e Rússia. Atualmente é Professor Adjunto do Centro de Educação, Letras e Artes da Universidade Federal do Acre (CELA/UFAC), onde atua no curso de Licenciatura em Música."
+  },
+  {
+    "link": "http://estudiologos.com.br/arquivos/2020/",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/39_img.png",
+    "title": "2020 em torno do eixo da terra",
+    "author": "julio mariutti",
+    "Email": "julio@estudiologos.com.br",
+    "Descrição": "como extensão de um calendário impresso, foi criada uma visualização tridimensional da posição relativa de sol, terra e lua; com solstícios e equinócios em destaque.",
+    "Mini-bio": "julio mariutti é designer e fundador do estúdio lógos."
+  },
+  {
+    "link": "https://esperanc.github.io/GaleriaPCD/obras/41_React%20Diffuse%20Mariana%20Leal/index.html",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/41_img.jpg",
+    "title": "React Diffuse",
+    "author": "Mariana Leal",
+    "Email": "irma.lael@gmail.com",
+    "Descrição": "Transformação de imagem por algoritmo de reação-difusão. \n\nCaligrafia se transformando em outra coisa e essa coisa se transformando de novo.",
+    "Mini-bio": "Mariana Leal é calígrafa e arte-programadora residente em São Paulo. Suas pesquisas atuais consistem na expansão dos gestos caligráficos para além dos seus suportes habituais. Para tal, ela usa o processing e a programação. Ela também ministra cursos sobre caligrafia, com ou sem programação, desde 2019. Portfolio: https://marileal.github.io/ Rede social: instagram.com/lightesthand"
+  },
+  {
+    "link": "https://esperanc.github.io/GaleriaPCD/obras/42_Swerve%20Mariana%20Leal/index.html",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/42_img.jpg",
+    "title": "Swerve",
+    "author": "Mariana Leal",
+    "Email": "irma.lael@gmail.com",
+    "Descrição": "Algoritmo de reação e difusão alterando caligrafia original.",
+    "Mini-bio": "Mariana Leal é calígrafa e arte-programadora residente em São Paulo. Suas pesquisas atuais consistem na expansão dos gestos caligráficos para além dos seus suportes habituais. Para tal, ela usa o processing e a programação. Ela também ministra cursos sobre caligrafia, com ou sem programação, desde 2019. Portfolio: https://marileal.github.io/ Rede social: instagram.com/lightesthand"
+  },
+  {
+    "link": "https://contrast.parts/MorteManaca",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/45_img.png",
+    "title": "O ciclo do Manacá-da-serra",
+    "author": "Monica Rizzolli",
+    "Email": "monica.rizzolli@gmail.com",
+    "Descrição": "O tríptico \"O ciclo do Manacá-da-serra\" faz parte da série Jardim Tropical que explora a relação entre a flora brasileira e a geometria. É composto por 3 GIFS: A origem do Manacá, A vida do Manacá e Morte do Manacá.",
+    "Mini-bio": "Monica Rizzolli é artista-programadora, estudou no Instituto de Artes da UNESP e na Kunsthochschule Kassel (Alemanha). Participou de projetos internacionais como MAK Center Artists and Architects (EUA), Creatives in Residence (China), Sweet Home (Espanha) e A.I.R. DRAWinternational (França). Recebeu o prêmio MAK Schindler, do MAK - Museum of Applied Arts Vienna. É co-fundadora da Noite de Processing e co-organizadora do Processing Community Day São Paulo de 2019, evento anual da Processing Foundation. Com Tony de Marco é sócia da type foundry Just in Type e do estúdio de design Contrast - programação, tipografia e design."
+  },
+  {
+    "link": "https://vimeo.com/517963688",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/46_img.jpg",
+    "title": "Memórias de Minha Mãe Mar",
+    "author": "Nerize Portela",
+    "Email": "nerize@gmail.com",
+    "Descrição": "Realizada para integrar um balaio de oferendas virtuais a Yemanjá, no 2 de fevereiro, \nMemórias de Minha Mãe mar, surge como impulso criativo e como processo-desdobramento da pintura e escrita, possibilitada pelas redes que nos interconectam. Utilizando uma instalação interativa para resgatar e ressignificar coleções de imagens autorais e realizada na clausura do apartamento,  tal experimento surge da necessidade de dançar imagens. Mas surge também como uma necessidade de transbordamento, de algo latente apenas a espera de uma razão, necessária. Aqui os multimeios tecnológicos, servem a possibilitar apenas que coleções de imagens, percursos de vida, dança, poesia, clausura, cura, fé, pudessem emergir, condensados em 1 minuto, expressando a força,  potência e encantamento que a vida, ainda tem para nos fazer mover.",
+    "Mini-bio": "Artista multimídia, graduada em Artes Visuais pela Universidade Federal do Recôncavo da Bahia. Atua nas áreas do vídeo, fotografia, pintura, escrita.  Pesquisa corpo, tecnologia e cultura e seus múltiplos desdobramentos. Como ‘artvista’ e arte-educadora, participou de projetos culturais como Cineclube Eldorado, Grupo Raízes do Ébano e Cine do Povo, em Cachoeira-Ba, de mostra individual e coletiva como a XI Bienal do Recôncavo da Bahia, a qual foi Premio de Residência Artística do Instituto Sacatar. Atuou como cenógrafa na Exposição de Artes Visuais Autópsia do Invertebrado – Projeto Financiado pela SECULT-BA. E mais recentemente idealizadora do Projeto Elas se [Redes]cobrem na Costa, projeto de intervenção artística de mulheres, financiado pela Lei Aldir Blanc. Alguns de seus trabalhos refletem pesquisas e cruzamentos entre a performance e os multimeios na produção de sentido através das tecnologias, incluindo interatividade, live images, live cinemas, projeções mapeadas. Em alguns o corpo é simplesmente objeto central de investigação em sua dimensão política e estética e cultural, seja através de temas relacionados à cultura afro-brasileira, seja através de relações simbólicas com o entorno e ambiente. Atualmente seu processo criativo gira em torno de pesquisas da Pós-Graduação em Dramaturgias expandidas do corpo e dos saberes populares, na Universidade Federal do Sul da Bahia."
+  },
+  {
+    "link": "https://pedrorns.itch.io/democracia-socratica",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/49_img.png",
+    "title": "Democracia Socrática",
+    "author": "Pedro Nunes da Silva",
+    "Email": "pedrorns@gmail.com",
+    "Descrição": "Democracia Socrática é um jogo educativo criado para estudantes em classes de introdução à ciência política. Nesse jogo, os estudantes vivem o dilema---descrito por Socrates---entre governar para o bem da cidade ou governar para o bem próprio, em meio às pressões populares por soluções fáceis. Na atual implementação, o jogo está em espanhol pois foi criado para estudantes da Universidad San Francisco de Quito, no Ecuador.",
+    "Mini-bio": "Professor de ciencia política na Universidad San Francisco de Quito (Ecuador) y game designer de jogos (educativos ou não) utilizando Godot."
+  },
+  {
+    "link": "https://pedrorns.itch.io/timeline-international-relations-usfq",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/50_img.png",
+    "title": "Timeline International Relations",
+    "author": "Pedro Nunes da Silva",
+    "Email": "pedrorns@gmail.com",
+    "Descrição": "Timeline IR é jogo de cartas solitaire criado para estudantes de Relações Internacionais. O jogador recebe 4 cartas, cada uma descrevendo um evento historico importante, e deve posicionar essas cartas cronologicamente no tabuleiro. Na atual implementação, o jogo está em espanhol pois foi criado para estudantes da Universidad San Francisco de Quito, no Ecuador.",
+    "Mini-bio": "Professor de Ciencia Politica na Universidad San Francisco de Quito (Ecuador). Game designer de jogos (educacionais ou não) utilizando Godot."
+  },
+  {
+    "link": "https://rodrigorez.github.io/SonoroMov_i_e_SonoroMov_i_V2/",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/54_img.jpg",
+    "title": "Sonora Mov(i)e",
+    "author": "Rodrigo Rezende e Fernanda Duarte",
+    "Email": "rodrigo@recorganize.art.br",
+    "Descrição": "Sonora mov(i)e é uma instalação artística que aborda as capacidades da cognição humana quando exposta aos reveses tecnológicos intensos, tal qual experimentamos neste período de quarentena. Trazendo um cenário inspirado em diversas paisagens de Hieronymus Bosch com um toque minimalista e psicodélico, esta obra convida o público a um percurso por uma imagem mutante e caótica, através da qual os autores expressam as sensações que experimentam durante o confinamento.",
+    "Mini-bio": "Fernanda Duarte é doutora em Artes Visuais pela Universidade Estadual Paulista \"Júlio de Mesquita Filho\" (UNESP-2017), com tese financiada através de bolsa FAPESP. Realizou estágio de investigação no exterior na Universidade de Barcelona (Espanha), através de recursos da bolsa BEPE (FAPESP); Mestre em Imagem e Som pela Universidade Federal de São Carlos (UFSCar - 2011) com foco na linha \"Narrativas Audiovisuais\" e financiamento REUNI-CAPES. Possui graduação em Design Digital pela Universidade Anhembi Morumbi (UAM - 2007) e graduação em Projeto e Produção em Design de Web pela Universidade Anhembi Morumbi (2007). Técnica em Artes Gráficas com habilitação em Processamento da Imagem pelo SENAI Theobaldo de Nigris (1998), quando foi bolsista SEBRAE. Docente da Universidade Anhembi Morumbi (UAM) nos cursos de graduação bacharelados em Rádio, TV e Internet e Design Digital e tecnólogos em Produção Multimídia e Produção Publicitária e na graduação tecnológica em Produção Multimídia da Faculdade Impacta de Tecnologia (FIT). Coordena a linha de pesquisa ?Efeitos visuais e especiais no audiovisual e espetáculos? do grupo de pesquisa GIIP (UNESP) e integra o grupo de pesquisa Cinema e Comunicação (UFSCar). Video designer do Coletivo RE(C)organize. Atua principalmente nos seguintes temas: narrativa audiovisual, artes do vídeo, projeção mapeada e videoclipe brasileiro.<br>\n\nRodrigo Rezende é mestrando em Artes Visuais na Unesp e graduado em Jogos Digitais na Faculdade Impacta de Tecnologia. Atua como Artista e Programador no Coletivo RE(C)organize e desenvolve pesquisas de interatividade em arte e computação física com software e hardware livres. Atua como multiplicador de conhecimento, através de oficinas nas áreas de multimídia, arte computacional e audiovisual. Pesquisa junto ao grupo GIIP do Instituto de Artes da Unesp, as relações entre arte, ciência e tecnologia, além de desenvolver sistemas interativos em tempo real para as artes. Realizou trabalhos em Barcelona, Sevilha e Mérida, na Espanha durante sua residência naquele país e também frequenta espaços Makers, colaborando e compartilhando seus conhecimentos."
+  },
+  {
+    "link": "https://sergiovenancio.art/danceofplanets",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/56_img.png",
+    "title": "Dança dos Planetas",
+    "author": "Sergio Venancio",
+    "Email": "svenancio@gmail.com",
+    "Descrição": "Dança dos Planetas\" (2013, reedição 2021) é uma proposta de visualização poética de dados sobre órbitas de planetas do sistema solar. Dois planetas selecionados pelo espectador têm suas órbitas ao redor do Sol simuladas em distância e velocidade. Traçando linhas retas entre os dois planetas em curtos intervalos de tempo regulares, obtemos padrões visualmente interessantes. Há dois modos de visualização, um tradicional 2D encontrado em diversas literaturas, e um experimental 3D, que abre mão de leis universais para criar novas propostas estéticas. O espectador pode atravessar espacialmente cada dança gerada.",
+    "Mini-bio": "Sergio Venancio é artista, programador, pesquisador e professor. Suas pesquisas e produções se encontram na intersecção entre Artes e Inteligências Artificiais. É doutorando pelo Programa de Pós-Graduação em Artes Visuais (PPGAV) ECA USP, mestre em Artes Visuais pela mesma instituição. Graduado em Artes Visuais e em Ciência da Computação pela UNICAMP. Leciona nos cursos de Especialização em Design Gráfico UNICAMP, e Pós-Graduação em Arquitetura Digital e Projetos Paramétricos na Belas Artes SP. Participa do grupo Realidades (ECA USP) e coletivo COM.6, pelos quais já participou de exposições e festivais nacionais e internacionais com instalações interativas."
+  },
+  {
+    "link": "https://erratica.com.br/opus/104/tony.html",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/58_img.jpg",
+    "title": "Viva Vaia",
+    "author": "Tony de Marco",
+    "Email": "tony@garoa.tv",
+    "Descrição": "Em 14 de fevereiro de 2011, Augusto de Campos completou 80 anos.\nA revista Errática, que se orgulha de ter o poeta entre seus mais frequentes colaboradores, preparou uma comemoração multimidiática com vários artistas, que enviaram trabalhos realizados especialmente para essa homenagem. Tony de Marco apresentou nesta edição histórica da revista uma releitura do poema Viva Vaia de Augusto de Campos.",
+    "Mini-bio": "CriptoArtista, fotógrafo e type designer. Fundador da Just in Type, desenha fontes tipográficas desde 1989. Co-editor da revista Tupigrafia. Premiado em 2003 no Linotype International Type Design Contest com a fonte “Samba”. Pinta na rua desde 2005 sob o nome “Pixotosco”, que batiza seu canal na Twitch. Divide com Monica Rizzolli o estúdio de design Contrast."
+  },
+  {
+    "link": "https://vimeo.com/517438965",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/61_img.jpg",
+    "title": "Gabinete de curiosidades-Armário de curiosidades",
+    "author": "Xio Kruczynski",
+    "Email": "xiozapata20@gmail.com",
+    "Descrição": "É um livro criado na linguagem Processing e projetado para uma leitura multisequencial, já que convida a pessoa leitora para navega-lo de uma maneira livre.\n\nA história está baseada em uma coleção de objetos onde cada um deles guarda um mistério – uma tela mágica que faz truques reais, um elefante que vagueia, um \"caleidoportal\" para viajar para outras dimensões – e caberá a pessoa decidir se os seus mistério serão revelados ou não.\n\nCada página possui interações simples, nas quais por meio de alguns comandos com teclado e mouse, serão acessadas palavras que se movem, sons, imagens e vídeo promovendo uma leitura multilinear e a interação da pessoa com a historia.",
+    "Mini-bio": "Artista plástica colombiana residente em Buenos Aires-Argentina é mestranda em artes eletrônicas e amante da literatura e ilustração."
+  },
+  {
+    "link": "https://vimeo.com/517446091",
+    "src": "https://esperanc.github.io/GaleriaPCD/images/62_img.jpg",
+    "title": "“Cuando estoy soñando así, empiezo a ver que solo somos telescopios”",
+    "author": "Xiomara Zapata",
+    "Email": "xiozapata20@gmail.com",
+    "Descrição": "Finnegans Wake, é um romance de James Joyce, que não tem começo nem fim, seus personagens ao longo da trama estão recebendo nomes diferentes, tem uma linguagem abstrata, que brinca com onomatopeias, nada é sólido, tudo flui, recusa a lógica e insere nós em um mundo circular e infinito.\n\nMeu trabalho feito na linguagem Processing é uma homenagem a este romance, e inspirado por uma das frases em que Joyce sugere uma divertida cosmovisão onírica astronômica \"Quando estou sonhando assim, começo a ver que somos apenas telescópios\"\n\nAquela criança observando o espaço com seu telescópio, nos convida a olhar as coisas de uma maneira diferente e a refletir sobre nossos pensamentos nos quais, como um rizoma, se multiplicam e se abrem para criar novos universos infinitos.",
+    "Mini-bio": "Artista plástica colombiana residente em Buenos Aires-Argentina é mestranda em artes eletrônicas e amante da literatura e ilustração."
+  }
+]
