@@ -305,6 +305,7 @@ section {
   color:var(--cor-vermelho);
   margin-bottom: 0.5rem;
   padding-left: 0.4rem;
+  margin-top: 0;
 }
 
 .programacao-card-title span {
@@ -466,12 +467,12 @@ section {
   position: absolute;
   right: 1.5rem;
   top: 5rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: var(--font-tomorrow);
-  font-size: 1rem;
-  padding: 0.3rem 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 1.2rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background-color: var(--cor-vermelho);
   border: 1px solid var(--cor-azul);
   color: var(--cor-cinza);
