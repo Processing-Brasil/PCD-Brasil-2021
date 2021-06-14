@@ -1,0 +1,22 @@
+<div class='formulario_certificado'>
+  <img src='{{site.baseurl}}/assets/PCD-BR-2021-Marca-Cinza.png' class='logoform'>
+  <br>
+  Consulta de certificados. Preencha o CPF apenas com números.
+  <br><br>
+  <form id='dadoscpf' method='GET' action='{{site.baseurl}}/certificados'>
+      <input type='number' name='cpf'/>
+      <input type='submit' value='Consulta por CPF' />
+  </form>
+</div>
+<script>
+  var formEl = document.querySelector('.formulario_certificado');
+  var url = new URL(window.location.href);
+  var cpf = url.searchParams.get("cpf");
+  if(cpf){
+      var iframe = document.createElement('iframe');
+      iframe.src = "https://www.ranoya.com/public/PCD/certificados.php?cpf=" + encodeURI(cpf);
+      document.body.appendChild(iframe);
+  }else{
+      formEl.style.display = "block";
+  }
+</script>
