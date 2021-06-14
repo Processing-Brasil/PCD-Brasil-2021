@@ -18,9 +18,30 @@ title: Certificados
   var url = new URL(window.location.href);
   var cpf = url.searchParams.get("cpf");
   if(cpf){
-      var iframe = document.createElement('iframe');
-      iframe.src = "https://www.ranoya.com/public/PCD/certificados.php?cpf=" + encodeURI(cpf);
-      document.body.appendChild(iframe);
+      var url = "https://api.allorigins.win/get?url=" + encodeURI("https://www.ranoya.com/public/PCD/certificados.php?cpf=" + cpf);
+      
+      httpGetAsync(url, onLoad);
+      
+      function onLoad(response){
+          var obj = JSON.parse(response);
+          var el = document.createElement('html');
+          el.innerHTML = obj.contents;
+          var body = el.querySelector('body');
+          var head = el.querySelector('head');
+          document.head.innerHTML = head.innerHTML;
+          document.body.innerHTML = body.innerHTML;
+      }
+      
+      function httpGetAsync(theUrl, callback)
+      {
+          var xmlHttp = new XMLHttpRequest();
+          xmlHttp.onreadystatechange = function() { 
+              if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                  callback(xmlHttp.responseText);
+          }
+          xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+          xmlHttp.send(null);
+      }
   }else{
       formEl.style.display = "block";
   }
