@@ -1,0 +1,77 @@
+---
+layout: home
+title: Home
+---
+
+<section class="intro" style="background-image: url({{site.baseurl}}/assets/PCD-BR-2021-Header.png);">
+  <header class="intro-header">
+    <div class="intro-logo">
+      <img src="{{site.baseurl}}/assets/PCD-BR-2021-Marca-Cinza.png" alt="logo">
+    </div>
+    <div class="intro-data">
+      11 a 17 de Abril de 2021
+    </div>
+    <div class="intro-bemvindo">
+      
+      <p>O Processing Community Day é um evento realizado no mundo todo com o objetivo de promover a interação e celebrar a diversidade de pessoas e tecnologias no universo das artes computacionais.</p>
+      
+      <h2>Assista as gravações!</h2>
+      <p>Uma boa parte da programação que foi transmitida durante o evento está agora disponível em nosso canal do YouTube.</p>
+      <div class="cta">
+        <a href="https://www.youtube.com/c/ProcessingCommunityDayBrasil" class="button button-small">PCD Brasil no YouTube</a>
+        
+      </div>
+
+      
+      <h2>Galeria Virtual</h2>
+      <p>Além da programação de atividades e palestras visite nossa galeria virtual.</p>
+      <div class="cta">
+        <a href="{{site.baseurl}}/galeria" class="button button-small">Visitar Galeria Virtual</a>
+      </div>
+     
+
+      <h2>Programação</h2>
+      <p>Esse ano a comunidade brasileira organizou o primeiro PCD nacional, com programação de uma semana inteira.</p>
+      <div class="cta">
+        <a href="{{site.baseurl}}/programacao" class="button button-small">Confira como foi a programação</a>
+      </div>
+      
+      <h2>Textos</h2>
+      <p>Para contribuir com a divulgação de pesquisas brasileiras na área da programação criativa foi feita uma chamada aberta para textos acadêmicos e técnicos.</p>
+      <div class="cta">
+        <a href="{{site.baseurl}}/textos" class="button  button-small">Acessar Textos</a>
+      </div>
+      
+    </div>          
+  </header>
+</section>
+
+<section class="parcerias">
+  <div class="content-container">
+    <h2>Parcerias</h2>
+
+    As instituições abaixo apoiam a comunidade de programação criativa e o PCD Brasil 2021:
+  </div>
+  <ul class="lista-logos">
+    {% for instituicao in site.data.parcerias %}
+      <li class="lista-logos-item">
+        <a href="#">
+          <img src="{{ site.baseurl }}/assets/parcerias/{{ instituicao.logo }}" alt="{{ instituicao.nome }}">
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!--
+<section class="parcerias">
+  <div class="content-container">
+    <h2>Parcerias</h2>
+
+    As instituições abaixo apoiam a comunidade de programação criativa e o PCD Brasil 2021:
+    <br>
+    <br>
+  </div>
+  <img src="{{ site.baseurl }}/assets/rede-compoetica.png">
+</section>
+-->
