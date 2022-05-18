@@ -1,77 +1,80 @@
 ---
-layout: home
 title: Home
 ---
 
-<section class="intro" style="background-image: url({{site.baseurl}}/assets/PCD-BR-2021-Header.png);">
-  <header class="intro-header">
-    <div class="intro-logo">
-      <img src="{{site.baseurl}}/assets/PCD-BR-2021-Marca-Cinza.png" alt="logo">
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Processing Community Day Brasil</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Recursive:wght@400;700&family=Tomorrow:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <!-- <script src="js/sketch.js"></script> -->
+
+    <style>
+      .site {
+        padding-top: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="site">
+      <div class="site-content">
+        <section 
+          class="intro"
+          style="background-image: url({{site.baseurl}}/assets/PCD-BR-2021-Header.png);"
+        >
+          <header class="intro-header">
+            <div class="intro-logo">
+              <img
+                src="{{site.baseurl}}/assets/PCD-BR-2021-Marca-Cinza.png"
+                alt="logo"
+              />
+            </div>
+            <div class="intro-data">Em breve edição 2022!</div>
+            <div class="intro-bemvindo">
+              <p>
+                O Processing Community Day é um evento realizado no mundo todo
+                com o objetivo de promover a interação e celebrar a diversidade
+                de pessoas e tecnologias no universo das artes computacionais.
+              </p>
+
+              <p>
+                Estamos trabalhando na edição de 2022 e em breve teremos novidades.
+              </p>
+
+              <h2>Veja o conteúdo da edição de 2021</h2>
+              <p>
+                As palestras, galeria e artigos da edição passada ainda estão disponíveis no site antigo:
+              </p>
+              <div class="cta">
+                <a
+                  href="https://www.youtube.com/c/ProcessingCommunityDayBrasil"
+                  class="button button-small"
+                  >Acessar site da edição de 2021</a
+                >
+              </div>
+            </div>
+          </header>
+        </section>
+      </div>
     </div>
-    <div class="intro-data">
-      11 a 17 de Abril de 2021
-    </div>
-    <div class="intro-bemvindo">
-      
-      <p>O Processing Community Day é um evento realizado no mundo todo com o objetivo de promover a interação e celebrar a diversidade de pessoas e tecnologias no universo das artes computacionais.</p>
-      
-      <h2>Assista as gravações!</h2>
-      <p>Uma boa parte da programação que foi transmitida durante o evento está agora disponível em nosso canal do YouTube.</p>
-      <div class="cta">
-        <a href="https://www.youtube.com/c/ProcessingCommunityDayBrasil" class="button button-small">PCD Brasil no YouTube</a>
-        
-      </div>
+  </body>
 
-      
-      <h2>Galeria Virtual</h2>
-      <p>Além da programação de atividades e palestras visite nossa galeria virtual.</p>
-      <div class="cta">
-        <a href="{{site.baseurl}}/galeria" class="button button-small">Visitar Galeria Virtual</a>
-      </div>
-     
-
-      <h2>Programação</h2>
-      <p>Esse ano a comunidade brasileira organizou o primeiro PCD nacional, com programação de uma semana inteira.</p>
-      <div class="cta">
-        <a href="{{site.baseurl}}/programacao" class="button button-small">Confira como foi a programação</a>
-      </div>
-      
-      <h2>Textos</h2>
-      <p>Para contribuir com a divulgação de pesquisas brasileiras na área da programação criativa foi feita uma chamada aberta para textos acadêmicos e técnicos.</p>
-      <div class="cta">
-        <a href="{{site.baseurl}}/textos" class="button  button-small">Acessar Textos</a>
-      </div>
-      
-    </div>          
-  </header>
-</section>
-
-<section class="parcerias">
-  <div class="content-container">
-    <h2>Parcerias</h2>
-
-    As instituições abaixo apoiam a comunidade de programação criativa e o PCD Brasil 2021:
-  </div>
-  <ul class="lista-logos">
-    {% for instituicao in site.data.parcerias %}
-      <li class="lista-logos-item">
-        <a href="#">
-          <img src="{{ site.baseurl }}/assets/parcerias/{{ instituicao.logo }}" alt="{{ instituicao.nome }}">
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<!--
-<section class="parcerias">
-  <div class="content-container">
-    <h2>Parcerias</h2>
-
-    As instituições abaixo apoiam a comunidade de programação criativa e o PCD Brasil 2021:
-    <br>
-    <br>
-  </div>
-  <img src="{{ site.baseurl }}/assets/rede-compoetica.png">
-</section>
--->
+  <footer class="site-footer">
+    Organizado pela comunidade Processing Brasil,
+    <a href="{{site.baseurl}}/sobre/">Saiba mais</a>. Conheça nosso
+    <a href="{{ site.baseurl }}/codigo-conduta/">Código de Conduta.</a>
+  </footer>
+  <script src="{{site.baseurl}}/js/main.js"></script>
+</html>
